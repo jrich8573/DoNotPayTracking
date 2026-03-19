@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react";
+import { useFRLiveSearch } from "./useFRLiveSearch";
 
 const ROUTINE_USE = `To the U.S. Department of the Treasury when disclosure of the information is relevant to review payment and award eligibility through the Do Not Pay Working System for the purposes of identifying, preventing, or recouping improper payments to an applicant for, or recipient of, Federal funds, including funds disbursed by a state (meaning a state of the United States, the District of Columbia, a territory or possession of the United States, or a federally recognized Indian tribe) in a state-administered, federally funded program.`;
 
@@ -112,12 +113,18 @@ function Row({ a, isOpen, onToggle }) {
   );
 }
 
+const KNOWN_FR_DOCS = AGENCIES.map(a => a.frDoc).filter(Boolean);
+
 export default function App() {
   const [search, setSearch] = useState("");
   const [statusFilter, setStatusFilter] = useState("All");
   const [typeFilter, setTypeFilter] = useState("All");
   const [view, setView] = useState("gap");
   const [expanded, setExpanded] = useState(null);
+  const [liveOpen, setLiveOpen] = useState(false);
+
+  const { results: liveResults, loading: liveLoading, error: liveError, lastChecked, refetch } =
+    useFRLiveSearch(KNOWN_FR_DOCS);
 
   const stats = useMemo(() => ({
     total: AGENCIES.length,
@@ -180,6 +187,47 @@ export default function App() {
               <span key={l} style={{ fontSize:9, color:c }}>■ {l}</span>
             ))}
           </div>
+        </div>
+        {/* LIVE FR FEED */}
+        <div style={{ marginTop: 16, maxWidth: 820 }}>
+          <button
+            onClick={() => setLiveOpen(o => !o)}
+            style={{ background: "none", border: "1px solid #1e3a5f", borderRadius: 4, color: "#3b82f6", fontSize: 10, fontFamily: "monospace", padding: "4px 10px", cursor: "pointer", display: "flex", alignItems: "center", gap: 6 }}
+          >
+            <span style={{ display: "inline-block", width: 7, height: 7, borderRadius: "50%", background: liveLoading ? "#f97316" : liveError ? "#ef4444" : "#22c55e", boxShadow: !liveLoading && !liveError ? "0 0 5px #22c55e66" : "none" }} />
+            Live FR Feed
+            {!liveLoading && !liveError && liveResults.some(r => r.isNew) && (
+              <span style={{ background: "#7c3aed", color: "#e9d5ff", borderRadius: 3, padding: "1px 5px", fontSize: 9 }}>
+                {liveResults.filter(r => r.isNew).length} NEW
+              </span>
+            )}
+            <span style={{ color: "#374151" }}>{liveOpen ? "▲" : "▼"}</span>
+          </button>
+
+          {liveOpen && (
+            <div style={{ marginTop: 6, background: "#060d1a", border: "1px solid #162540", borderRadius: 4, padding: "10px 14px" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8 }}>
+                <span style={{ fontSize: 9, color: "#374151", textTransform: "uppercase", letterSpacing: "0.12em" }}>
+                  {liveLoading ? "Querying Federal Register…" : liveError ? `Error: ${liveError}` : `${liveResults.length} recent notices · last checked ${lastChecked?.toLocaleTimeString()}`}
+                </span>
+                <button onClick={refetch} disabled={liveLoading} style={{ background: "none", border: "1px solid #1e3a5f", borderRadius: 3, color: "#3b82f6", fontSize: 9, fontFamily: "monospace", padding: "2px 7px", cursor: "pointer" }}>
+                  ↺ Refresh
+                </button>
+              </div>
+              {!liveLoading && !liveError && liveResults.map(doc => (
+                <div key={doc.document_number} style={{ display: "flex", alignItems: "baseline", gap: 8, padding: "5px 0", borderBottom: "1px solid #0d1a2d" }}>
+                  {doc.isNew && (
+                    <span style={{ background: "#4c1d95", color: "#c4b5fd", border: "1px solid #6d28d9", borderRadius: 3, padding: "1px 5px", fontSize: 9, fontFamily: "monospace", whiteSpace: "nowrap", flexShrink: 0 }}>NEW</span>
+                  )}
+                  <span style={{ fontSize: 10, color: "#6b7280", fontFamily: "monospace", whiteSpace: "nowrap", flexShrink: 0 }}>{doc.publication_date}</span>
+                  <a href={doc.html_url} target="_blank" rel="noreferrer" style={{ fontSize: 11, color: doc.isNew ? "#c4b5fd" : "#4b5563", textDecoration: "none", lineHeight: 1.4, flex: 1 }}>
+                    {doc.title}
+                  </a>
+                  <span style={{ fontSize: 9, color: "#374151", fontFamily: "monospace", whiteSpace: "nowrap", flexShrink: 0 }}>{doc.document_number}</span>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </div>
 

@@ -1,0 +1,31 @@
+name: Check Federal Register for New DNP Filings
+
+on:
+  schedule:
+    # Runs at 9:00 AM and 9:00 PM UTC every day
+    - cron: "0 9 * * *"
+    - cron: "0 21 * * *"
+  # Allow manual trigger from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  check:
+    name: Query Federal Register API
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write   # needed to create GitHub issues
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run filing check
+        run: node scripts/check-fr-filings.mjs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
