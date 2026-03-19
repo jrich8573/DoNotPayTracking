@@ -156,7 +156,7 @@ export default function App() {
       <div style={{ borderBottom:"1px solid #0d1a2d", background:"#020b17", padding:"24px 32px 18px" }}>
         <div style={{ fontSize:9, color:"#1e3a5f", letterSpacing:"0.2em", textTransform:"uppercase", fontFamily:"monospace", marginBottom:5 }}>EO 14249 · OMB M-25-32 · Privacy Act Compliance</div>
         <h1 style={{ margin:"0 0 4px", fontSize:19, fontWeight:700, color:"#f9fafb", letterSpacing:"-0.02em" }}>Do Not Pay SORN Routine Use — Compliance Tracker</h1>
-        <p style={{ margin:0, fontSize:12, color:"#4b5563", maxWidth:660 }}>Agency Federal Register filings adding the Treasury Do Not Pay routine use to Privacy Act SORNs. Updated Mar. 16, 2026.</p>
+        <p style={{ margin:0, fontSize:12, color:"#4b5563", maxWidth:660 }}>Agency Federal Register filings adding the Treasury Do Not Pay routine use to Privacy Act SORNs. Updated {new Date().toLocaleDateString("en-US", { month:"short", day:"numeric", year:"numeric" })}.</p>
 
         <div style={{ display:"flex", gap:8, marginTop:16, flexWrap:"wrap" }}>
           {[
@@ -296,7 +296,7 @@ export default function App() {
         )}
 
         <div style={{ marginTop:18, padding:"11px 14px", background:"#060b14", border:"1px solid #0d1a2d", borderRadius:5, fontSize:10, color:"#374151", lineHeight:1.8 }}>
-          <span style={{ color:"#4b5563" }}>⚠ Coverage note:</span> "Not Filed" = no confirmed Federal Register SORN modification notice located as of Mar. 16, 2026.
+          <span style={{ color:"#4b5563" }}>⚠ Coverage note:</span> "Not Filed" = no confirmed Federal Register SORN modification notice located as of {new Date().toLocaleDateString("en-US", { month:"short", day:"numeric", year:"numeric" })}.
           Large agencies may have filed under component-level notices not yet surfaced, or be in process.
           EO 14249 applies to <em>all</em> executive agencies — non-CFO Act agencies (CFTC, SEC, FERC, Peace Corps, etc.) are equally required to comply.
           Use Live FR Search for real-time updates.
