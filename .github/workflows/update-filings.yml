@@ -1,0 +1,82 @@
+name: Update DNP Filings Data
+
+# Regenerates src/data/filings.json from the Federal Register API, commits it if
+# anything changed, and redeploys the site. This is what makes the tracker
+# self-updating — the dashboard renders only what this workflow commits.
+#
+# Note: the commit this workflow makes also resets GitHub's 60-day inactivity
+# timer, so the schedule keeps itself alive as long as filings keep landing.
+# If the repo ever goes quiet long enough for GitHub to disable the schedule,
+# re-enable it from the Actions tab.
+
+on:
+  schedule:
+    - cron: "0 9 * * *"
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-filings
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Fetch Federal Register data
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Regenerate filings data
+        run: node scripts/fetch-filings.mjs
+
+      - name: Commit if changed
+        id: commit
+        run: |
+          if git diff --quiet -- src/data/filings.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No substantive change in src/data/filings.json"
+            exit 0
+          fi
+
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          git diff --stat -- src/data/filings.json
+
+          node -e '
+            const d = require("./src/data/filings.json");
+            const open = d.agencies.filter(a => a.status === "Comment Period");
+            const lines = [
+              "data: refresh Federal Register DNP filings",
+              "",
+              `${d.totals.agencies} agencies, ${d.totals.filings} notices as of ${d.asOf}.`,
+            ];
+            if (open.length) lines.push(`Open for comment: ${open.map(a => a.abbr).join(", ")}`);
+            require("fs").writeFileSync("commit-msg.txt", lines.join("\n") + "\n");
+          '
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/filings.json
+          git commit -F commit-msg.txt
+          rm -f commit-msg.txt
+          git push
+
+  deploy:
+    name: Redeploy site
+    needs: update
+    if: needs.update.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml

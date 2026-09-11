@@ -1,0 +1,171 @@
+{
+  "_comment": [
+    "Hand-curated agency metadata. This file is NEVER written by the generator —",
+    "edit it freely. scripts/fetch-filings.mjs merges it with live Federal Register",
+    "results to produce src/data/filings.json.",
+    "",
+    "Every agency listed here is always shown on the dashboard, even with zero",
+    "filings, so the compliance gap stays visible. Agencies NOT listed here still",
+    "appear automatically once they file.",
+    "",
+    "Fields: abbr, type ('CFO Act' | 'Independent'), notes (scope context — keep it",
+    "status-neutral, status is derived from dates), sorns (curated SORN identifiers),",
+    "extraFilings (notices that exist outside the FR API, e.g. SEC's own PA releases).",
+    "",
+    "Rollup: a doc filed by a child agency is attributed to the nearest ancestor",
+    "listed here, else to its top-level parent. FERC is listed here so its notices",
+    "are not folded into the Energy Department."
+  ],
+
+  "social-security-administration": {
+    "abbr": "SSA", "type": "CFO Act",
+    "sorns": ["Multiple SSA systems of records"],
+    "notes": "EO 14249 compliance; added the DNP routine use with the limitation required by 20 CFR 401.150(c)."
+  },
+  "commodity-futures-trading-commission": {
+    "abbr": "CFTC", "type": "Independent",
+    "sorns": ["CFTC-5 (Employee Personnel, Payroll & T&A)", "CFTC-6", "CFTC-7", "CFTC-8"],
+    "notes": "Modified 4 SORNs. Also added M-17-12 breach routine uses to 3 of the 4 systems."
+  },
+  "education-department": {
+    "abbr": "ED", "type": "CFO Act",
+    "sorns": ["Multiple ED systems of records"],
+    "notes": "Cites both EO 14249 and M-25-32. Federal Student Aid disbursements are the dominant payment stream in scope."
+  },
+  "securities-and-exchange-commission": {
+    "abbr": "SEC", "type": "Independent",
+    "sorns": ["SEC-06 (Financial and Acquisition Management System)"],
+    "notes": "Modified SEC-06 only, after a comprehensive SORN inventory review per EO 14249 and M-25-32. SEC publishes Privacy Act releases on sec.gov rather than solely through the Federal Register.",
+    "extraFilings": [
+      {
+        "frDoc": "PA-63 / S7-2025-05",
+        "frCitation": "90 FR (Dec. 19, 2025)",
+        "pubDate": "2025-12-19",
+        "effectiveDate": "2026-01-18",
+        "commentsCloseOn": "2026-01-18",
+        "title": "Privacy Act of 1974; System of Records (SEC-06)",
+        "action": "Notice of a modified system of records",
+        "frUrl": "https://www.sec.gov/files/rules/other/2025/pa-63.pdf"
+      }
+    ]
+  },
+  "general-services-administration": {
+    "abbr": "GSA", "type": "CFO Act",
+    "sorns": ["GSA/PPFM-11 (Pegasys Financial Management System)"],
+    "notes": "DNP added as 'Routine Use k'. Also added Congressional disclosure and breach uses. Pegasys was re-acquired from USDA in 2023."
+  },
+  "housing-and-urban-development-department": {
+    "abbr": "HUD", "type": "CFO Act",
+    "sorns": [
+      "LOCCS — Line of Credit Control System (A67)",
+      "HUDCAPS (A75)",
+      "Enterprise Income Verification (HUD/PIH-05)",
+      "HUD Information Portal (HUD/PIH-01)",
+      "Single Family Insurance System (HUD/HOU-04)",
+      "DSRS (HUD/HOU-03)",
+      "SMART (HUD/HOU-58)"
+    ],
+    "notes": "The most active filer in the dataset. Initial notice covered 7 SORNs and removed a prior DNP routine use from the Single Family Mortgage Insurance Origination System. Acting CPO: Shalanda Capehart."
+  },
+  "transportation-department": {
+    "abbr": "DOT", "type": "CFO Act",
+    "sorns": ["DOT/ALL 8 — Parking and Transit Benefit Records (TRANServe TSP)"],
+    "notes": "SORN renamed from 'Parking and Transit Benefit System'. Migrated to FedRAMP-authorized cloud; SSNs no longer collected."
+  },
+  "peace-corps": {
+    "abbr": "PC", "type": "Independent",
+    "sorns": ["PC-1", "PC-9", "P-22", "PC-23"],
+    "notes": "Added as 'Routine Use O' to the Peace Corps General Routine Use list."
+  },
+  "federal-energy-regulatory-commission": {
+    "abbr": "FERC", "type": "Independent",
+    "sorns": [
+      "FERC-16 — Death Case Files", "FERC-17 — Disability Retirement Files",
+      "FERC-18 — Discontinued Service Retirements", "FERC-21 — Training Records",
+      "FERC-22 — Employee Indebtedness Cases", "FERC-23 — Leave Without Pay Requests",
+      "FERC-25 — OWCP Claims", "FERC-28 — Restoration of Annual Leave",
+      "FERC-29 — Unemployment Compensation", "FERC-31 — Parking Records",
+      "FERC-32 — Fitness Center Records", "FERC-35 — Security Investigations",
+      "FERC-37 — Voluntary Leave Transfer", "FERC-41 — Transit Subsidy Records",
+      "FERC-43 — Travel Records", "FERC-46 — FOIA & PA Request Files"
+    ],
+    "notes": "16 SORNs in a single consolidated notice. CIO & SAOP: Mittal Desai. Listed separately from the Energy Department, which files on its own."
+  },
+
+  "agriculture-department": {
+    "abbr": "USDA", "type": "CFO Act",
+    "notes": "Extensive payment programs — SNAP, farm subsidies, rural development loans. VA BEP data already reaches USDA via PARIS for eligibility checks. Files through components including FNS and the Farm Service Agency / Commodity Credit Corporation."
+  },
+  "commerce-department": {
+    "abbr": "DOC", "type": "CFO Act",
+    "notes": "Includes NOAA, Census, USPTO, and NIST — multiple components with grant and contractor payment SORNs in scope."
+  },
+  "defense-department": {
+    "abbr": "DoD", "type": "CFO Act",
+    "notes": "Largest federal agency by disbursement. DFAS is a Non-Treasury Disbursing Office handling $477B+/year across Army, Navy, Air Force, and the defense agencies."
+  },
+  "energy-department": {
+    "abbr": "DOE", "type": "CFO Act",
+    "notes": "Grants, national labs, and contractor payments. Its component FERC is tracked as a separate line."
+  },
+  "health-and-human-services-department": {
+    "abbr": "HHS", "type": "CFO Act",
+    "notes": "Highest improper payment exposure of any agency — CMS alone administers Medicare and Medicaid. Component SORNs span CMS, NIH, CDC, HRSA, SAMHSA, and ACF."
+  },
+  "homeland-security-department": {
+    "abbr": "DHS", "type": "CFO Act",
+    "notes": "Includes FEMA disaster relief payments, CBP, and ICE. FEMA improper payments are a historically significant federal issue."
+  },
+  "interior-department": {
+    "abbr": "DOI", "type": "CFO Act",
+    "notes": "Mineral royalties, tribal trust payments, and natural resource grants via BLM, BIA, NPS, and BSEE."
+  },
+  "justice-department": {
+    "abbr": "DOJ", "type": "CFO Act",
+    "notes": "OJP grants, BOP vendor payments, and law enforcement assistance programs with significant payment volume."
+  },
+  "labor-department": {
+    "abbr": "DOL", "type": "CFO Act",
+    "notes": "UI program improper payments are a major long-standing federal problem; employment and training grants are also in scope. DOL has pursued both SORN modifications and PIIA computer matching programs against the DNP Working System."
+  },
+  "state-department": {
+    "abbr": "DOS", "type": "CFO Act",
+    "notes": "Foreign assistance payments, contractor payments abroad, and consular services, with a unique cross-border compliance context."
+  },
+  "treasury-department": {
+    "abbr": "Treasury", "type": "CFO Act",
+    "notes": "Operates DNP itself through the Bureau of the Fiscal Service, and must also comply as a disclosing agency. IRS and BFS have extensive SORN inventories in scope."
+  },
+  "veterans-affairs-department": {
+    "abbr": "VA", "type": "CFO Act",
+    "notes": "VA BEP database designated into DNP/PARIS (Sep. 2025) for state use. VA must also modify its own SORNs as a disclosing agency; VBA and VHA payments are massive in scale."
+  },
+  "environmental-protection-agency": {
+    "abbr": "EPA", "type": "CFO Act",
+    "notes": "Grants and cooperative agreements to states and tribes; grantee and contractor payment records in scope."
+  },
+  "national-aeronautics-and-space-administration": {
+    "abbr": "NASA", "type": "CFO Act",
+    "notes": "Large contractor payment base. SEWP and other acquisition vehicles involve substantial vendor and awardee payment records."
+  },
+  "nuclear-regulatory-commission": {
+    "abbr": "NRC", "type": "CFO Act",
+    "notes": "Smaller, fee-funded agency. Contractor and grant payment records are limited in scope relative to other CFO Act agencies."
+  },
+  "national-science-foundation": {
+    "abbr": "NSF", "type": "CFO Act",
+    "notes": "Primarily a grant-making agency — awardee, PI, and institution records are highly relevant to DNP screening."
+  },
+  "personnel-management-office": {
+    "abbr": "OPM", "type": "CFO Act",
+    "notes": "Administers federal retirement and FEHB, among the largest benefit payment programs subject to DNP. CSRS/FERS and health plan records are directly implicated."
+  },
+  "small-business-administration": {
+    "abbr": "SBA", "type": "CFO Act",
+    "notes": "Loan guarantee and disaster assistance programs had massive COVID-era improper payments, making SBA a primary target for DNP screening."
+  },
+  "agency-for-international-development": {
+    "abbr": "USAID", "type": "CFO Act",
+    "notes": "Undergoing major restructuring. Foreign assistance payments carry a unique compliance context and the operational timeline is uncertain."
+  }
+}

@@ -1,0 +1,2149 @@
+{
+  "generatedAt": "2026-09-11T13:59:06.719Z",
+  "asOf": "2026-09-11",
+  "source": {
+    "api": "https://www.federalregister.gov/api/v1/documents.json",
+    "terms": [
+      "\"Do Not Pay Working System\"",
+      "\"Do Not Pay (DNP) Working System\"",
+      "\"Do Not Pay\" \"routine use\"",
+      "\"Do Not Pay\" \"matching program\""
+    ],
+    "since": "2025-01-01"
+  },
+  "totals": {
+    "agencies": 41,
+    "filings": 101,
+    "uniqueNotices": 99
+  },
+  "agencies": [
+    {
+      "slug": "agency-for-international-development",
+      "agency": "Agency for International Development",
+      "abbr": "USAID",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "Undergoing major restructuring. Foreign assistance payments carry a unique compliance context and the operational timeline is uncertain.",
+      "sorns": [],
+      "filings": [],
+      "filingCount": 0,
+      "latest": null,
+      "status": "Not Filed"
+    },
+    {
+      "slug": "agriculture-department",
+      "agency": "Agriculture Department",
+      "abbr": "USDA",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "Extensive payment programs — SNAP, farm subsidies, rural development loans. VA BEP data already reaches USDA via PARIS for eligibility checks. Files through components including FNS and the Farm Service Agency / Commodity Credit Corporation.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-18034",
+          "frCitation": "91 FR 56613",
+          "pubDate": "2026-09-03",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/09/03/2026-18034/privacy-act-of-1974-matching-program"
+        },
+        {
+          "frDoc": "2026-12005",
+          "frCitation": "91 FR 35948",
+          "pubDate": "2026-06-15",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/06/15/2026-12005/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-11227",
+          "frCitation": "91 FR 33682",
+          "pubDate": "2026-06-04",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Office of The Secretary; Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/06/04/2026-11227/office-of-the-secretary-privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-07093",
+          "frCitation": "91 FR 18812",
+          "pubDate": "2026-04-13",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of modified systems of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/04/13/2026-07093/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-11463",
+          "frCitation": "90 FR 26521",
+          "pubDate": "2025-06-23",
+          "effectiveDate": "2025-07-23",
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a new system of records.",
+          "kind": "New SORN",
+          "frUrl": "https://www.federalregister.gov/documents/2025/06/23/2025-11463/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 5,
+      "latest": {
+        "frDoc": "2026-18034",
+        "frCitation": "91 FR 56613",
+        "pubDate": "2026-09-03",
+        "effectiveDate": null,
+        "commentsCloseOn": null,
+        "title": "Privacy Act of 1974; Matching Program",
+        "action": "Notice of a new matching program.",
+        "kind": "Matching Program",
+        "frUrl": "https://www.federalregister.gov/documents/2026/09/03/2026-18034/privacy-act-of-1974-matching-program"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "central-intelligence-agency",
+      "agency": "Central Intelligence Agency",
+      "abbr": "CIA",
+      "type": "Independent",
+      "curated": false,
+      "notes": null,
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-00727",
+          "frCitation": "91 FR 1743",
+          "pubDate": "2026-01-15",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records and Routine Uses",
+          "action": "Notice of Modified Systems of Records; General Routine Uses of the Central Intelligence Agency.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/01/15/2026-00727/privacy-act-of-1974-system-of-records-and-routine-uses"
+        }
+      ],
+      "filingCount": 1,
+      "latest": {
+        "frDoc": "2026-00727",
+        "frCitation": "91 FR 1743",
+        "pubDate": "2026-01-15",
+        "effectiveDate": null,
+        "commentsCloseOn": null,
+        "title": "Privacy Act of 1974; System of Records and Routine Uses",
+        "action": "Notice of Modified Systems of Records; General Routine Uses of the Central Intelligence Agency.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/01/15/2026-00727/privacy-act-of-1974-system-of-records-and-routine-uses"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "commerce-department",
+      "agency": "Commerce Department",
+      "abbr": "DOC",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "Includes NOAA, Census, USPTO, and NIST — multiple components with grant and contractor payment SORNs in scope.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-00996",
+          "frCitation": "91 FR 2332",
+          "pubDate": "2026-01-20",
+          "effectiveDate": "2026-02-24",
+          "commentsCloseOn": "2026-02-19",
+          "title": "Privacy Act of 1974: System of Records",
+          "action": "Notice of modified systems of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/01/20/2026-00996/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 1,
+      "latest": {
+        "frDoc": "2026-00996",
+        "frCitation": "91 FR 2332",
+        "pubDate": "2026-01-20",
+        "effectiveDate": "2026-02-24",
+        "commentsCloseOn": "2026-02-19",
+        "title": "Privacy Act of 1974: System of Records",
+        "action": "Notice of modified systems of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/01/20/2026-00996/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "commodity-futures-trading-commission",
+      "agency": "Commodity Futures Trading Commission",
+      "abbr": "CFTC",
+      "type": "Independent",
+      "curated": true,
+      "notes": "Modified 4 SORNs. Also added M-17-12 breach routine uses to 3 of the 4 systems.",
+      "sorns": [
+        "CFTC-5 (Employee Personnel, Payroll & T&A)",
+        "CFTC-6",
+        "CFTC-7",
+        "CFTC-8"
+      ],
+      "filings": [
+        {
+          "frDoc": "2025-21510",
+          "frCitation": "90 FR 54640",
+          "pubDate": "2025-11-28",
+          "effectiveDate": "2025-12-29",
+          "commentsCloseOn": "2025-12-29",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/11/28/2025-21510/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 1,
+      "latest": {
+        "frDoc": "2025-21510",
+        "frCitation": "90 FR 54640",
+        "pubDate": "2025-11-28",
+        "effectiveDate": "2025-12-29",
+        "commentsCloseOn": "2025-12-29",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2025/11/28/2025-21510/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "consumer-financial-protection-bureau",
+      "agency": "Consumer Financial Protection Bureau",
+      "abbr": "CFPB",
+      "type": "Independent",
+      "curated": false,
+      "notes": null,
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-10113",
+          "frCitation": "91 FR 29464",
+          "pubDate": "2026-05-20",
+          "effectiveDate": "2026-06-22",
+          "commentsCloseOn": "2026-06-22",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/05/20/2026-10113/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-23612",
+          "frCitation": "90 FR 59800",
+          "pubDate": "2025-12-22",
+          "effectiveDate": "2026-01-21",
+          "commentsCloseOn": "2026-01-21",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/12/22/2025-23612/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-23611",
+          "frCitation": "90 FR 59805",
+          "pubDate": "2025-12-22",
+          "effectiveDate": "2026-01-21",
+          "commentsCloseOn": "2026-01-21",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/12/22/2025-23611/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-23610",
+          "frCitation": "90 FR 59803",
+          "pubDate": "2025-12-22",
+          "effectiveDate": "2026-01-21",
+          "commentsCloseOn": "2026-01-21",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/12/22/2025-23610/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 4,
+      "latest": {
+        "frDoc": "2026-10113",
+        "frCitation": "91 FR 29464",
+        "pubDate": "2026-05-20",
+        "effectiveDate": "2026-06-22",
+        "commentsCloseOn": "2026-06-22",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/05/20/2026-10113/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "council-of-the-inspectors-general-on-integrity-and-efficiency",
+      "agency": "Council of the Inspectors General on Integrity and Efficiency",
+      "abbr": "CIGIE",
+      "type": "Independent",
+      "curated": false,
+      "notes": null,
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-01843",
+          "frCitation": "91 FR 4067",
+          "pubDate": "2026-01-30",
+          "effectiveDate": "2026-03-02",
+          "commentsCloseOn": "2026-03-02",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of modified systems of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/01/30/2026-01843/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 1,
+      "latest": {
+        "frDoc": "2026-01843",
+        "frCitation": "91 FR 4067",
+        "pubDate": "2026-01-30",
+        "effectiveDate": "2026-03-02",
+        "commentsCloseOn": "2026-03-02",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of modified systems of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/01/30/2026-01843/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "defense-department",
+      "agency": "Defense Department",
+      "abbr": "DoD",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "Largest federal agency by disbursement. DFAS is a Non-Treasury Disbursing Office handling $477B+/year across Army, Navy, Air Force, and the defense agencies.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-17278",
+          "frCitation": "91 FR 54850",
+          "pubDate": "2026-08-25",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-09-24",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/08/25/2026-17278/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-21170",
+          "frCitation": "90 FR 54312",
+          "pubDate": "2025-11-26",
+          "effectiveDate": null,
+          "commentsCloseOn": "2025-12-26",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/11/26/2025-21170/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 2,
+      "latest": {
+        "frDoc": "2026-17278",
+        "frCitation": "91 FR 54850",
+        "pubDate": "2026-08-25",
+        "effectiveDate": null,
+        "commentsCloseOn": "2026-09-24",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/08/25/2026-17278/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Comment Period"
+    },
+    {
+      "slug": "education-department",
+      "agency": "Education Department",
+      "abbr": "ED",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "Cites both EO 14249 and M-25-32. Federal Student Aid disbursements are the dominant payment stream in scope.",
+      "sorns": [
+        "Multiple ED systems of records"
+      ],
+      "filings": [
+        {
+          "frDoc": "2026-17297",
+          "frCitation": "91 FR 54857",
+          "pubDate": "2026-08-25",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-09-24",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/08/25/2026-17297/privacy-act-of-1974-matching-program"
+        },
+        {
+          "frDoc": "2025-22310",
+          "frCitation": "90 FR 57040",
+          "pubDate": "2025-12-09",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-01-08",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/12/09/2025-22310/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 2,
+      "latest": {
+        "frDoc": "2026-17297",
+        "frCitation": "91 FR 54857",
+        "pubDate": "2026-08-25",
+        "effectiveDate": null,
+        "commentsCloseOn": "2026-09-24",
+        "title": "Privacy Act of 1974; Matching Program",
+        "action": "Notice of a new matching program.",
+        "kind": "Matching Program",
+        "frUrl": "https://www.federalregister.gov/documents/2026/08/25/2026-17297/privacy-act-of-1974-matching-program"
+      },
+      "status": "Comment Period"
+    },
+    {
+      "slug": "energy-department",
+      "agency": "Energy Department",
+      "abbr": "DOE",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "Grants, national labs, and contractor payments. Its component FERC is tracked as a separate line.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-05728",
+          "frCitation": "91 FR 14009",
+          "pubDate": "2026-03-24",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-04-23",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/03/24/2026-05728/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-02520",
+          "frCitation": "91 FR 5757",
+          "pubDate": "2026-02-09",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; Systems of Records",
+          "action": "Notice of modified systems of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/02/09/2026-02520/privacy-act-of-1974-systems-of-records"
+        }
+      ],
+      "filingCount": 2,
+      "latest": {
+        "frDoc": "2026-05728",
+        "frCitation": "91 FR 14009",
+        "pubDate": "2026-03-24",
+        "effectiveDate": null,
+        "commentsCloseOn": "2026-04-23",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/03/24/2026-05728/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "environmental-protection-agency",
+      "agency": "Environmental Protection Agency",
+      "abbr": "EPA",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "Grants and cooperative agreements to states and tribes; grantee and contractor payment records in scope.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-07406",
+          "frCitation": "91 FR 20428",
+          "pubDate": "2026-04-16",
+          "effectiveDate": "2026-04-16",
+          "commentsCloseOn": "2026-05-18",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/04/16/2026-07406/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-05870",
+          "frCitation": "91 FR 14696",
+          "pubDate": "2026-03-26",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-04-27",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/03/26/2026-05870/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 2,
+      "latest": {
+        "frDoc": "2026-07406",
+        "frCitation": "91 FR 20428",
+        "pubDate": "2026-04-16",
+        "effectiveDate": "2026-04-16",
+        "commentsCloseOn": "2026-05-18",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/04/16/2026-07406/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "export-import-bank",
+      "agency": "Export-Import Bank",
+      "abbr": "EIB/USEIB",
+      "type": "Independent",
+      "curated": false,
+      "notes": null,
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-05932",
+          "frCitation": "91 FR 14847",
+          "pubDate": "2026-03-27",
+          "effectiveDate": "2026-03-27",
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/03/27/2026-05932/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-05931",
+          "frCitation": "91 FR 14843",
+          "pubDate": "2026-03-27",
+          "effectiveDate": "2026-03-27",
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/03/27/2026-05931/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 2,
+      "latest": {
+        "frDoc": "2026-05932",
+        "frCitation": "91 FR 14847",
+        "pubDate": "2026-03-27",
+        "effectiveDate": "2026-03-27",
+        "commentsCloseOn": null,
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/03/27/2026-05932/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "federal-communications-commission",
+      "agency": "Federal Communications Commission",
+      "abbr": "FCC",
+      "type": "Independent",
+      "curated": false,
+      "notes": null,
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-03742",
+          "frCitation": "91 FR 9263",
+          "pubDate": "2026-02-25",
+          "effectiveDate": "2026-02-25",
+          "commentsCloseOn": "2026-03-27",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice; modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/02/25/2026-03742/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-03741",
+          "frCitation": "91 FR 9251",
+          "pubDate": "2026-02-25",
+          "effectiveDate": "2026-02-25",
+          "commentsCloseOn": "2026-03-27",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice; modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/02/25/2026-03741/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-03740",
+          "frCitation": "91 FR 9272",
+          "pubDate": "2026-02-25",
+          "effectiveDate": "2026-02-25",
+          "commentsCloseOn": "2026-03-27",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice; modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/02/25/2026-03740/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-03738",
+          "frCitation": "91 FR 9255",
+          "pubDate": "2026-02-25",
+          "effectiveDate": "2026-02-25",
+          "commentsCloseOn": "2026-03-27",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/02/25/2026-03738/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-03737",
+          "frCitation": "91 FR 9269",
+          "pubDate": "2026-02-25",
+          "effectiveDate": "2026-02-25",
+          "commentsCloseOn": "2026-03-27",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/02/25/2026-03737/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-03736",
+          "frCitation": "91 FR 9275",
+          "pubDate": "2026-02-25",
+          "effectiveDate": "2026-02-25",
+          "commentsCloseOn": "2026-03-27",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/02/25/2026-03736/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 6,
+      "latest": {
+        "frDoc": "2026-03742",
+        "frCitation": "91 FR 9263",
+        "pubDate": "2026-02-25",
+        "effectiveDate": "2026-02-25",
+        "commentsCloseOn": "2026-03-27",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice; modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/02/25/2026-03742/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "federal-deposit-insurance-corporation",
+      "agency": "Federal Deposit Insurance Corporation",
+      "abbr": "FDIC",
+      "type": "Independent",
+      "curated": false,
+      "notes": null,
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-07923",
+          "frCitation": "91 FR 21815",
+          "pubDate": "2026-04-23",
+          "effectiveDate": "2026-04-23",
+          "commentsCloseOn": "2026-05-26",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/04/23/2026-07923/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-19979",
+          "frCitation": "90 FR 51316",
+          "pubDate": "2025-11-17",
+          "effectiveDate": "2025-12-17",
+          "commentsCloseOn": "2025-12-17",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of modified systems of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/11/17/2025-19979/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 2,
+      "latest": {
+        "frDoc": "2026-07923",
+        "frCitation": "91 FR 21815",
+        "pubDate": "2026-04-23",
+        "effectiveDate": "2026-04-23",
+        "commentsCloseOn": "2026-05-26",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/04/23/2026-07923/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "federal-energy-regulatory-commission",
+      "agency": "Federal Energy Regulatory Commission",
+      "abbr": "FERC",
+      "type": "Independent",
+      "curated": true,
+      "notes": "16 SORNs in a single consolidated notice. CIO & SAOP: Mittal Desai. Listed separately from the Energy Department, which files on its own.",
+      "sorns": [
+        "FERC-16 — Death Case Files",
+        "FERC-17 — Disability Retirement Files",
+        "FERC-18 — Discontinued Service Retirements",
+        "FERC-21 — Training Records",
+        "FERC-22 — Employee Indebtedness Cases",
+        "FERC-23 — Leave Without Pay Requests",
+        "FERC-25 — OWCP Claims",
+        "FERC-28 — Restoration of Annual Leave",
+        "FERC-29 — Unemployment Compensation",
+        "FERC-31 — Parking Records",
+        "FERC-32 — Fitness Center Records",
+        "FERC-35 — Security Investigations",
+        "FERC-37 — Voluntary Leave Transfer",
+        "FERC-41 — Transit Subsidy Records",
+        "FERC-43 — Travel Records",
+        "FERC-46 — FOIA & PA Request Files"
+      ],
+      "filings": [
+        {
+          "frDoc": "2026-02520",
+          "frCitation": "91 FR 5757",
+          "pubDate": "2026-02-09",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; Systems of Records",
+          "action": "Notice of modified systems of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/02/09/2026-02520/privacy-act-of-1974-systems-of-records"
+        }
+      ],
+      "filingCount": 1,
+      "latest": {
+        "frDoc": "2026-02520",
+        "frCitation": "91 FR 5757",
+        "pubDate": "2026-02-09",
+        "effectiveDate": null,
+        "commentsCloseOn": null,
+        "title": "Privacy Act of 1974; Systems of Records",
+        "action": "Notice of modified systems of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/02/09/2026-02520/privacy-act-of-1974-systems-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "federal-housing-finance-agency",
+      "agency": "Federal Housing Finance Agency",
+      "abbr": "FHFA",
+      "type": "Independent",
+      "curated": false,
+      "notes": null,
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-17587",
+          "frCitation": "91 FR 55584",
+          "pubDate": "2026-08-28",
+          "effectiveDate": "2026-08-28",
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/08/28/2026-17587/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-17586",
+          "frCitation": "91 FR 55588",
+          "pubDate": "2026-08-28",
+          "effectiveDate": "2026-08-28",
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/08/28/2026-17586/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-17585",
+          "frCitation": "91 FR 55580",
+          "pubDate": "2026-08-28",
+          "effectiveDate": "2026-08-28",
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/08/28/2026-17585/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 3,
+      "latest": {
+        "frDoc": "2026-17587",
+        "frCitation": "91 FR 55584",
+        "pubDate": "2026-08-28",
+        "effectiveDate": "2026-08-28",
+        "commentsCloseOn": null,
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/08/28/2026-17587/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "federal-trade-commission",
+      "agency": "Federal Trade Commission",
+      "abbr": "FTC",
+      "type": "Independent",
+      "curated": false,
+      "notes": null,
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-15955",
+          "frCitation": "91 FR 50838",
+          "pubDate": "2026-08-06",
+          "effectiveDate": "2026-10-05",
+          "commentsCloseOn": "2026-09-08",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of modified systems of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/08/06/2026-15955/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 1,
+      "latest": {
+        "frDoc": "2026-15955",
+        "frCitation": "91 FR 50838",
+        "pubDate": "2026-08-06",
+        "effectiveDate": "2026-10-05",
+        "commentsCloseOn": "2026-09-08",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of modified systems of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/08/06/2026-15955/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "general-services-administration",
+      "agency": "General Services Administration",
+      "abbr": "GSA",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "DNP added as 'Routine Use k'. Also added Congressional disclosure and breach uses. Pegasys was re-acquired from USDA in 2023.",
+      "sorns": [
+        "GSA/PPFM-11 (Pegasys Financial Management System)"
+      ],
+      "filings": [
+        {
+          "frDoc": "2026-07764",
+          "frCitation": "91 FR 21501",
+          "pubDate": "2026-04-22",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-05-22",
+          "title": "Privacy Act of 1974; Systems of Records",
+          "action": "Notice of modified systems of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/04/22/2026-07764/privacy-act-of-1974-systems-of-records"
+        },
+        {
+          "frDoc": "2026-00358",
+          "frCitation": "91 FR 1188",
+          "pubDate": "2026-01-12",
+          "effectiveDate": "2026-02-11",
+          "commentsCloseOn": "2026-02-11",
+          "title": "Privacy Act of 1974; Notice of a Modified System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/01/12/2026-00358/privacy-act-of-1974-notice-of-a-modified-system-of-records"
+        }
+      ],
+      "filingCount": 2,
+      "latest": {
+        "frDoc": "2026-07764",
+        "frCitation": "91 FR 21501",
+        "pubDate": "2026-04-22",
+        "effectiveDate": null,
+        "commentsCloseOn": "2026-05-22",
+        "title": "Privacy Act of 1974; Systems of Records",
+        "action": "Notice of modified systems of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/04/22/2026-07764/privacy-act-of-1974-systems-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "health-and-human-services-department",
+      "agency": "Health and Human Services Department",
+      "abbr": "HHS",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "Highest improper payment exposure of any agency — CMS alone administers Medicare and Medicaid. Component SORNs span CMS, NIH, CDC, HRSA, SAMHSA, and ACF.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-17907",
+          "frCitation": "91 FR 56457",
+          "pubDate": "2026-09-02",
+          "effectiveDate": "2029-09-10",
+          "commentsCloseOn": "2026-10-02",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/09/02/2026-17907/privacy-act-of-1974-matching-program"
+        },
+        {
+          "frDoc": "2026-15146",
+          "frCitation": "91 FR 46937",
+          "pubDate": "2026-07-27",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-08-21",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/07/27/2026-15146/privacy-act-of-1974-matching-program"
+        },
+        {
+          "frDoc": "2026-04842",
+          "frCitation": "91 FR 12200",
+          "pubDate": "2026-03-12",
+          "effectiveDate": "2026-03-12",
+          "commentsCloseOn": "2026-04-13",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of modified systems of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/03/12/2026-04842/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-19630",
+          "frCitation": "90 FR 48445",
+          "pubDate": "2025-10-22",
+          "effectiveDate": null,
+          "commentsCloseOn": "2025-11-21",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2025/10/22/2025-19630/privacy-act-of-1974-matching-program"
+        }
+      ],
+      "filingCount": 4,
+      "latest": {
+        "frDoc": "2026-17907",
+        "frCitation": "91 FR 56457",
+        "pubDate": "2026-09-02",
+        "effectiveDate": "2029-09-10",
+        "commentsCloseOn": "2026-10-02",
+        "title": "Privacy Act of 1974; Matching Program",
+        "action": "Notice of a new matching program.",
+        "kind": "Matching Program",
+        "frUrl": "https://www.federalregister.gov/documents/2026/09/02/2026-17907/privacy-act-of-1974-matching-program"
+      },
+      "status": "Comment Period"
+    },
+    {
+      "slug": "homeland-security-department",
+      "agency": "Homeland Security Department",
+      "abbr": "DHS",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "Includes FEMA disaster relief payments, CBP, and ICE. FEMA improper payments are a historically significant federal issue.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2025-24030",
+          "frCitation": "90 FR 61409",
+          "pubDate": "2025-12-31",
+          "effectiveDate": "2026-01-30",
+          "commentsCloseOn": "2026-01-30",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/12/31/2025-24030/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 1,
+      "latest": {
+        "frDoc": "2025-24030",
+        "frCitation": "90 FR 61409",
+        "pubDate": "2025-12-31",
+        "effectiveDate": "2026-01-30",
+        "commentsCloseOn": "2026-01-30",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2025/12/31/2025-24030/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "housing-and-urban-development-department",
+      "agency": "Housing and Urban Development Department",
+      "abbr": "HUD",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "The most active filer in the dataset. Initial notice covered 7 SORNs and removed a prior DNP routine use from the Single Family Mortgage Insurance Origination System. Acting CPO: Shalanda Capehart.",
+      "sorns": [
+        "LOCCS — Line of Credit Control System (A67)",
+        "HUDCAPS (A75)",
+        "Enterprise Income Verification (HUD/PIH-05)",
+        "HUD Information Portal (HUD/PIH-01)",
+        "Single Family Insurance System (HUD/HOU-04)",
+        "DSRS (HUD/HOU-03)",
+        "SMART (HUD/HOU-58)"
+      ],
+      "filings": [
+        {
+          "frDoc": "2026-13660",
+          "frCitation": "91 FR 41649",
+          "pubDate": "2026-07-07",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-08-06",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/07/07/2026-13660/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-11612",
+          "frCitation": "91 FR 35243",
+          "pubDate": "2026-06-10",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-07-10",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/06/10/2026-11612/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-11611",
+          "frCitation": "91 FR 35246",
+          "pubDate": "2026-06-10",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-07-10",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/06/10/2026-11611/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-11295",
+          "frCitation": "91 FR 34245",
+          "pubDate": "2026-06-05",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-07-06",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/06/05/2026-11295/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-08351",
+          "frCitation": "91 FR 23298",
+          "pubDate": "2026-04-30",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-06-01",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a Modified System of Records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/04/30/2026-08351/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-08218",
+          "frCitation": "91 FR 22846",
+          "pubDate": "2026-04-28",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-05-28",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/04/28/2026-08218/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-07999",
+          "frCitation": "91 FR 22160",
+          "pubDate": "2026-04-24",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-05-26",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a Modified System of Records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/04/24/2026-07999/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-06606",
+          "frCitation": "91 FR 17290",
+          "pubDate": "2026-04-06",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-05-06",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified systems of records; correction; supplemental solicitation of public comment.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/04/06/2026-06606/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-00809",
+          "frCitation": "91 FR 2137",
+          "pubDate": "2026-01-16",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-02-17",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified systems of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/01/16/2026-00809/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-05555",
+          "frCitation": "90 FR 14376",
+          "pubDate": "2025-04-01",
+          "effectiveDate": "2025-05-01",
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2025/04/01/2025-05555/privacy-act-of-1974-matching-program"
+        }
+      ],
+      "filingCount": 10,
+      "latest": {
+        "frDoc": "2026-13660",
+        "frCitation": "91 FR 41649",
+        "pubDate": "2026-07-07",
+        "effectiveDate": null,
+        "commentsCloseOn": "2026-08-06",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/07/07/2026-13660/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "interior-department",
+      "agency": "Interior Department",
+      "abbr": "DOI",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "Mineral royalties, tribal trust payments, and natural resource grants via BLM, BIA, NPS, and BSEE.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-04216",
+          "frCitation": "91 FR 10622",
+          "pubDate": "2026-03-04",
+          "effectiveDate": "2026-04-06",
+          "commentsCloseOn": "2026-04-06",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of modified systems of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/03/04/2026-04216/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 1,
+      "latest": {
+        "frDoc": "2026-04216",
+        "frCitation": "91 FR 10622",
+        "pubDate": "2026-03-04",
+        "effectiveDate": "2026-04-06",
+        "commentsCloseOn": "2026-04-06",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of modified systems of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/03/04/2026-04216/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "justice-department",
+      "agency": "Justice Department",
+      "abbr": "DOJ",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "OJP grants, BOP vendor payments, and law enforcement assistance programs with significant payment volume.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-17963",
+          "frCitation": "91 FR 56474",
+          "pubDate": "2026-09-02",
+          "effectiveDate": "2029-09-10",
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/09/02/2026-17963/privacy-act-of-1974-matching-program"
+        },
+        {
+          "frDoc": "2026-09518",
+          "frCitation": "91 FR 27085",
+          "pubDate": "2026-05-13",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of modified systems of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/05/13/2026-09518/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 2,
+      "latest": {
+        "frDoc": "2026-17963",
+        "frCitation": "91 FR 56474",
+        "pubDate": "2026-09-02",
+        "effectiveDate": "2029-09-10",
+        "commentsCloseOn": null,
+        "title": "Privacy Act of 1974; Matching Program",
+        "action": "Notice of a new matching program.",
+        "kind": "Matching Program",
+        "frUrl": "https://www.federalregister.gov/documents/2026/09/02/2026-17963/privacy-act-of-1974-matching-program"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "labor-department",
+      "agency": "Labor Department",
+      "abbr": "DOL",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "UI program improper payments are a major long-standing federal problem; employment and training grants are also in scope. DOL has pursued both SORN modifications and PIIA computer matching programs against the DNP Working System.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-17838",
+          "frCitation": "91 FR 56223",
+          "pubDate": "2026-09-01",
+          "effectiveDate": "2029-09-10",
+          "commentsCloseOn": "2026-10-01",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a New Matching Program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/09/01/2026-17838/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-09081",
+          "frCitation": "91 FR 24916",
+          "pubDate": "2026-05-07",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-06-08",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/05/07/2026-09081/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-07740",
+          "frCitation": "91 FR 21315",
+          "pubDate": "2026-04-21",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-05-21",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of modified systems of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/04/21/2026-07740/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 3,
+      "latest": {
+        "frDoc": "2026-17838",
+        "frCitation": "91 FR 56223",
+        "pubDate": "2026-09-01",
+        "effectiveDate": "2029-09-10",
+        "commentsCloseOn": "2026-10-01",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a New Matching Program.",
+        "kind": "Matching Program",
+        "frUrl": "https://www.federalregister.gov/documents/2026/09/01/2026-17838/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Comment Period"
+    },
+    {
+      "slug": "management-and-budget-office",
+      "agency": "Management and Budget Office",
+      "abbr": "OMB",
+      "type": "Independent",
+      "curated": false,
+      "notes": null,
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2025-18680",
+          "frCitation": "90 FR 46417",
+          "pubDate": "2025-09-26",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Designation of Database to the Do Not Pay Working System",
+          "action": "Notice of designation.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/09/26/2025-18680/designation-of-database-to-the-do-not-pay-working-system"
+        },
+        {
+          "frDoc": "2025-11557",
+          "frCitation": "90 FR 26831",
+          "pubDate": "2025-06-24",
+          "effectiveDate": null,
+          "commentsCloseOn": "2025-07-09",
+          "title": "Proposed Designation of Database to the Do Not Pay Working System",
+          "action": "Notice of proposed designation.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/06/24/2025-11557/proposed-designation-of-database-to-the-do-not-pay-working-system"
+        }
+      ],
+      "filingCount": 2,
+      "latest": {
+        "frDoc": "2025-18680",
+        "frCitation": "90 FR 46417",
+        "pubDate": "2025-09-26",
+        "effectiveDate": null,
+        "commentsCloseOn": null,
+        "title": "Designation of Database to the Do Not Pay Working System",
+        "action": "Notice of designation.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2025/09/26/2025-18680/designation-of-database-to-the-do-not-pay-working-system"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "national-aeronautics-and-space-administration",
+      "agency": "National Aeronautics and Space Administration",
+      "abbr": "NASA",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "Large contractor payment base. SEWP and other acquisition vehicles involve substantial vendor and awardee payment records.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-15738",
+          "frCitation": "91 FR 49449",
+          "pubDate": "2026-08-04",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a Modified System of Records, Correction",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/08/04/2026-15738/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-21971",
+          "frCitation": "90 FR 56183",
+          "pubDate": "2025-12-05",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/12/05/2025-21971/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 2,
+      "latest": {
+        "frDoc": "2026-15738",
+        "frCitation": "91 FR 49449",
+        "pubDate": "2026-08-04",
+        "effectiveDate": null,
+        "commentsCloseOn": null,
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a Modified System of Records, Correction",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/08/04/2026-15738/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "national-credit-union-administration",
+      "agency": "National Credit Union Administration",
+      "abbr": "NCUA",
+      "type": "Independent",
+      "curated": false,
+      "notes": null,
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2025-23364",
+          "frCitation": "90 FR 59591",
+          "pubDate": "2025-12-19",
+          "effectiveDate": "2026-01-20",
+          "commentsCloseOn": "2026-01-20",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/12/19/2025-23364/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 1,
+      "latest": {
+        "frDoc": "2025-23364",
+        "frCitation": "90 FR 59591",
+        "pubDate": "2025-12-19",
+        "effectiveDate": "2026-01-20",
+        "commentsCloseOn": "2026-01-20",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2025/12/19/2025-23364/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "national-science-foundation",
+      "agency": "National Science Foundation",
+      "abbr": "NSF",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "Primarily a grant-making agency — awardee, PI, and institution records are highly relevant to DNP screening.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-14006",
+          "frCitation": "91 FR 42981",
+          "pubDate": "2026-07-13",
+          "effectiveDate": "2026-08-12",
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/07/13/2026-14006/privacy-act-of-1974-matching-program"
+        },
+        {
+          "frDoc": "2025-22115",
+          "frCitation": "90 FR 56185",
+          "pubDate": "2025-12-05",
+          "effectiveDate": "2026-01-05",
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of Modified Systems of Records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/12/05/2025-22115/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 2,
+      "latest": {
+        "frDoc": "2026-14006",
+        "frCitation": "91 FR 42981",
+        "pubDate": "2026-07-13",
+        "effectiveDate": "2026-08-12",
+        "commentsCloseOn": null,
+        "title": "Privacy Act of 1974; Matching Program",
+        "action": "Notice of a new matching program.",
+        "kind": "Matching Program",
+        "frUrl": "https://www.federalregister.gov/documents/2026/07/13/2026-14006/privacy-act-of-1974-matching-program"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "nuclear-regulatory-commission",
+      "agency": "Nuclear Regulatory Commission",
+      "abbr": "NRC",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "Smaller, fee-funded agency. Contractor and grant payment records are limited in scope relative to other CFO Act agencies.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-03592",
+          "frCitation": "91 FR 8903",
+          "pubDate": "2026-02-24",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-03-26",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/02/24/2026-03592/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 1,
+      "latest": {
+        "frDoc": "2026-03592",
+        "frCitation": "91 FR 8903",
+        "pubDate": "2026-02-24",
+        "effectiveDate": null,
+        "commentsCloseOn": "2026-03-26",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/02/24/2026-03592/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "peace-corps",
+      "agency": "Peace Corps",
+      "abbr": "PC",
+      "type": "Independent",
+      "curated": true,
+      "notes": "Added as 'Routine Use O' to the Peace Corps General Routine Use list.",
+      "sorns": [
+        "PC-1",
+        "PC-9",
+        "P-22",
+        "PC-23"
+      ],
+      "filings": [
+        {
+          "frDoc": "2026-01444",
+          "frCitation": "91 FR 3231",
+          "pubDate": "2026-01-26",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-02-25",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/01/26/2026-01444/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 1,
+      "latest": {
+        "frDoc": "2026-01444",
+        "frCitation": "91 FR 3231",
+        "pubDate": "2026-01-26",
+        "effectiveDate": null,
+        "commentsCloseOn": "2026-02-25",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/01/26/2026-01444/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "personnel-management-office",
+      "agency": "Personnel Management Office",
+      "abbr": "OPM",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "Administers federal retirement and FEHB, among the largest benefit payment programs subject to DNP. CSRS/FERS and health plan records are directly implicated.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-17369",
+          "frCitation": "91 FR 55128",
+          "pubDate": "2026-08-26",
+          "effectiveDate": "2029-09-10",
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; New Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/08/26/2026-17369/privacy-act-of-1974-new-matching-program"
+        },
+        {
+          "frDoc": "2026-12596",
+          "frCitation": "91 FR 37439",
+          "pubDate": "2026-06-23",
+          "effectiveDate": "2026-07-23",
+          "commentsCloseOn": "2026-07-23",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/06/23/2026-12596/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-09339",
+          "frCitation": "91 FR 25937",
+          "pubDate": "2026-05-12",
+          "effectiveDate": "2026-06-12",
+          "commentsCloseOn": "2026-06-11",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/05/12/2026-09339/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-08114",
+          "frCitation": "91 FR 22553",
+          "pubDate": "2026-04-27",
+          "effectiveDate": "2026-05-28",
+          "commentsCloseOn": "2026-05-27",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/04/27/2026-08114/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 4,
+      "latest": {
+        "frDoc": "2026-17369",
+        "frCitation": "91 FR 55128",
+        "pubDate": "2026-08-26",
+        "effectiveDate": "2029-09-10",
+        "commentsCloseOn": null,
+        "title": "Privacy Act of 1974; New Matching Program",
+        "action": "Notice of a new matching program.",
+        "kind": "Matching Program",
+        "frUrl": "https://www.federalregister.gov/documents/2026/08/26/2026-17369/privacy-act-of-1974-new-matching-program"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "railroad-retirement-board",
+      "agency": "Railroad Retirement Board",
+      "abbr": "RRB",
+      "type": "Independent",
+      "curated": false,
+      "notes": null,
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2025-22054",
+          "frCitation": "90 FR 56197",
+          "pubDate": "2025-12-05",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a Modified System of Records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/12/05/2025-22054/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-22053",
+          "frCitation": "90 FR 56193",
+          "pubDate": "2025-12-05",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/12/05/2025-22053/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-22052",
+          "frCitation": "90 FR 56199",
+          "pubDate": "2025-12-05",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/12/05/2025-22052/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-22051",
+          "frCitation": "90 FR 56195",
+          "pubDate": "2025-12-05",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/12/05/2025-22051/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-22049",
+          "frCitation": "90 FR 56204",
+          "pubDate": "2025-12-05",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/12/05/2025-22049/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-22048",
+          "frCitation": "90 FR 56201",
+          "pubDate": "2025-12-05",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/12/05/2025-22048/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-22047",
+          "frCitation": "90 FR 56207",
+          "pubDate": "2025-12-05",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act Of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/12/05/2025-22047/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 7,
+      "latest": {
+        "frDoc": "2025-22054",
+        "frCitation": "90 FR 56197",
+        "pubDate": "2025-12-05",
+        "effectiveDate": null,
+        "commentsCloseOn": null,
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a Modified System of Records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2025/12/05/2025-22054/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "securities-and-exchange-commission",
+      "agency": "Securities and Exchange Commission",
+      "abbr": "SEC",
+      "type": "Independent",
+      "curated": true,
+      "notes": "Modified SEC-06 only, after a comprehensive SORN inventory review per EO 14249 and M-25-32. SEC publishes Privacy Act releases on sec.gov rather than solely through the Federal Register.",
+      "sorns": [
+        "SEC-06 (Financial and Acquisition Management System)"
+      ],
+      "filings": [
+        {
+          "frDoc": "2025-23771",
+          "frCitation": "90 FR 60165",
+          "pubDate": "2025-12-23",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-01-22",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/12/23/2025-23771/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "PA-63 / S7-2025-05",
+          "frCitation": "90 FR (Dec. 19, 2025)",
+          "pubDate": "2025-12-19",
+          "effectiveDate": "2026-01-18",
+          "commentsCloseOn": "2026-01-18",
+          "title": "Privacy Act of 1974; System of Records (SEC-06)",
+          "action": "Notice of a modified system of records",
+          "frUrl": "https://www.sec.gov/files/rules/other/2025/pa-63.pdf"
+        }
+      ],
+      "filingCount": 2,
+      "latest": {
+        "frDoc": "2025-23771",
+        "frCitation": "90 FR 60165",
+        "pubDate": "2025-12-23",
+        "effectiveDate": null,
+        "commentsCloseOn": "2026-01-22",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2025/12/23/2025-23771/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "small-business-administration",
+      "agency": "Small Business Administration",
+      "abbr": "SBA",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "Loan guarantee and disaster assistance programs had massive COVID-era improper payments, making SBA a primary target for DNP screening.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-18527",
+          "frCitation": "91 FR 57950",
+          "pubDate": "2026-09-11",
+          "effectiveDate": "2029-09-10",
+          "commentsCloseOn": "2026-10-08",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a modified matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/09/11/2026-18527/privacy-act-of-1974-matching-program"
+        },
+        {
+          "frDoc": "2026-18009",
+          "frCitation": "91 FR 56703",
+          "pubDate": "2026-09-03",
+          "effectiveDate": "2026-10-05",
+          "commentsCloseOn": "2026-10-05",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/09/03/2026-18009/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-17995",
+          "frCitation": "91 FR 56700",
+          "pubDate": "2026-09-03",
+          "effectiveDate": "2026-10-05",
+          "commentsCloseOn": "2026-10-05",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/09/03/2026-17995/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 3,
+      "latest": {
+        "frDoc": "2026-18527",
+        "frCitation": "91 FR 57950",
+        "pubDate": "2026-09-11",
+        "effectiveDate": "2029-09-10",
+        "commentsCloseOn": "2026-10-08",
+        "title": "Privacy Act of 1974; Matching Program",
+        "action": "Notice of a modified matching program.",
+        "kind": "Matching Program",
+        "frUrl": "https://www.federalregister.gov/documents/2026/09/11/2026-18527/privacy-act-of-1974-matching-program"
+      },
+      "status": "Comment Period"
+    },
+    {
+      "slug": "social-security-administration",
+      "agency": "Social Security Administration",
+      "abbr": "SSA",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "EO 14249 compliance; added the DNP routine use with the limitation required by 20 CFR 401.150(c).",
+      "sorns": [
+        "Multiple SSA systems of records"
+      ],
+      "filings": [
+        {
+          "frDoc": "2026-07300",
+          "frCitation": "91 FR 20248",
+          "pubDate": "2026-04-15",
+          "effectiveDate": "2026-05-15",
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/04/15/2026-07300/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-00220",
+          "frCitation": "91 FR 1024",
+          "pubDate": "2026-01-09",
+          "effectiveDate": "2026-02-09",
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/01/09/2026-00220/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-20931",
+          "frCitation": "90 FR 53413",
+          "pubDate": "2025-11-25",
+          "effectiveDate": "2025-12-26",
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/11/25/2025-20931/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-19849",
+          "frCitation": "90 FR 50879",
+          "pubDate": "2025-11-12",
+          "effectiveDate": "2025-12-12",
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/11/12/2025-19849/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 4,
+      "latest": {
+        "frDoc": "2026-07300",
+        "frCitation": "91 FR 20248",
+        "pubDate": "2026-04-15",
+        "effectiveDate": "2026-05-15",
+        "commentsCloseOn": null,
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/04/15/2026-07300/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "state-department",
+      "agency": "State Department",
+      "abbr": "DOS",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "Foreign assistance payments, contractor payments abroad, and consular services, with a unique cross-border compliance context.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-03903",
+          "frCitation": "91 FR 9684",
+          "pubDate": "2026-02-26",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/02/26/2026-03903/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 1,
+      "latest": {
+        "frDoc": "2026-03903",
+        "frCitation": "91 FR 9684",
+        "pubDate": "2026-02-26",
+        "effectiveDate": null,
+        "commentsCloseOn": null,
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/02/26/2026-03903/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "surface-transportation-board",
+      "agency": "Surface Transportation Board",
+      "abbr": "STB",
+      "type": "Independent",
+      "curated": false,
+      "notes": null,
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-03241",
+          "frCitation": "91 FR 8053",
+          "pubDate": "2026-02-19",
+          "effectiveDate": "2026-04-01",
+          "commentsCloseOn": "2026-04-01",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a new system of records.",
+          "kind": "New SORN",
+          "frUrl": "https://www.federalregister.gov/documents/2026/02/19/2026-03241/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 1,
+      "latest": {
+        "frDoc": "2026-03241",
+        "frCitation": "91 FR 8053",
+        "pubDate": "2026-02-19",
+        "effectiveDate": "2026-04-01",
+        "commentsCloseOn": "2026-04-01",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a new system of records.",
+        "kind": "New SORN",
+        "frUrl": "https://www.federalregister.gov/documents/2026/02/19/2026-03241/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "transportation-department",
+      "agency": "Transportation Department",
+      "abbr": "DOT",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "SORN renamed from 'Parking and Transit Benefit System'. Migrated to FedRAMP-authorized cloud; SSNs no longer collected.",
+      "sorns": [
+        "DOT/ALL 8 — Parking and Transit Benefit Records (TRANServe TSP)"
+      ],
+      "filings": [
+        {
+          "frDoc": "2026-00936",
+          "frCitation": "91 FR 2424",
+          "pubDate": "2026-01-20",
+          "effectiveDate": "2026-02-19",
+          "commentsCloseOn": "2026-02-19",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/01/20/2026-00936/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2025-21745",
+          "frCitation": "90 FR 55335",
+          "pubDate": "2025-12-02",
+          "effectiveDate": "2026-01-02",
+          "commentsCloseOn": "2026-01-02",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified System of Records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/12/02/2025-21745/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 2,
+      "latest": {
+        "frDoc": "2026-00936",
+        "frCitation": "91 FR 2424",
+        "pubDate": "2026-01-20",
+        "effectiveDate": "2026-02-19",
+        "commentsCloseOn": "2026-02-19",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/01/20/2026-00936/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "treasury-department",
+      "agency": "Treasury Department",
+      "abbr": "Treasury",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "Operates DNP itself through the Bureau of the Fiscal Service, and must also comply as a disclosing agency. IRS and BFS have extensive SORN inventories in scope.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-16800",
+          "frCitation": "91 FR 53483",
+          "pubDate": "2026-08-18",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Designation of Databases to the Do Not Pay Working System",
+          "action": "Notice of designation.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/08/18/2026-16800/designation-of-databases-to-the-do-not-pay-working-system"
+        },
+        {
+          "frDoc": "2026-12814",
+          "frCitation": "91 FR 38476",
+          "pubDate": "2026-06-25",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-07-10",
+          "title": "Designation of OpenCorporates Dataset Into DNP Working System",
+          "action": "Notice of proposed designation.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/06/25/2026-12814/designation-of-opencorporates-dataset-into-dnp-working-system"
+        },
+        {
+          "frDoc": "2026-09918",
+          "frCitation": "91 FR 28759",
+          "pubDate": "2026-05-18",
+          "effectiveDate": "2029-09-10",
+          "commentsCloseOn": "2026-06-17",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/05/18/2026-09918/privacy-act-of-1974-matching-program"
+        },
+        {
+          "frDoc": "2026-06959",
+          "frCitation": "91 FR 18529",
+          "pubDate": "2026-04-10",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Designation of Databases to the Do Not Pay Working System",
+          "action": "Notice of designation.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/04/10/2026-06959/designation-of-databases-to-the-do-not-pay-working-system"
+        },
+        {
+          "frDoc": "2026-02630",
+          "frCitation": "91 FR 5990",
+          "pubDate": "2026-02-10",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-02-25",
+          "title": "Designation of the Social Security Administration's Numerical Identification System (Numident) Into Do Not Pay",
+          "action": "Notice of proposed designation.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/02/10/2026-02630/designation-of-the-social-security-administrations-numerical-identification-system-numident-into-do"
+        },
+        {
+          "frDoc": "2025-17382",
+          "frCitation": "90 FR 43729",
+          "pubDate": "2025-09-10",
+          "effectiveDate": "2025-09-10",
+          "commentsCloseOn": null,
+          "title": "Waiver of Computer Matching Agreements for Do Not Pay",
+          "action": "Notice of Intent to Issue a Four-Year Waiver from the Requirements of Computer Matching Agreements for Do Not Pay.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/09/10/2025-17382/waiver-of-computer-matching-agreements-for-do-not-pay"
+        }
+      ],
+      "filingCount": 6,
+      "latest": {
+        "frDoc": "2026-16800",
+        "frCitation": "91 FR 53483",
+        "pubDate": "2026-08-18",
+        "effectiveDate": null,
+        "commentsCloseOn": null,
+        "title": "Designation of Databases to the Do Not Pay Working System",
+        "action": "Notice of designation.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/08/18/2026-16800/designation-of-databases-to-the-do-not-pay-working-system"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "u-s-international-development-finance-corporation",
+      "agency": "U.S. International Development Finance Corporation",
+      "abbr": "DFC",
+      "type": "Independent",
+      "curated": false,
+      "notes": null,
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2025-17853",
+          "frCitation": "90 FR 44649",
+          "pubDate": "2025-09-16",
+          "effectiveDate": "2025-10-16",
+          "commentsCloseOn": "2025-10-16",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2025/09/16/2025-17853/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 1,
+      "latest": {
+        "frDoc": "2025-17853",
+        "frCitation": "90 FR 44649",
+        "pubDate": "2025-09-16",
+        "effectiveDate": "2025-10-16",
+        "commentsCloseOn": "2025-10-16",
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2025/09/16/2025-17853/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    },
+    {
+      "slug": "veterans-affairs-department",
+      "agency": "Veterans Affairs Department",
+      "abbr": "VA",
+      "type": "CFO Act",
+      "curated": true,
+      "notes": "VA BEP database designated into DNP/PARIS (Sep. 2025) for state use. VA must also modify its own SORNs as a disclosing agency; VBA and VHA payments are massive in scale.",
+      "sorns": [],
+      "filings": [
+        {
+          "frDoc": "2026-13453",
+          "frCitation": "91 FR 40670",
+          "pubDate": "2026-07-02",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/07/02/2026-13453/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-00682",
+          "frCitation": "91 FR 1869",
+          "pubDate": "2026-01-15",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/01/15/2026-00682/privacy-act-of-1974-system-of-records"
+        }
+      ],
+      "filingCount": 2,
+      "latest": {
+        "frDoc": "2026-13453",
+        "frCitation": "91 FR 40670",
+        "pubDate": "2026-07-02",
+        "effectiveDate": null,
+        "commentsCloseOn": null,
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/07/02/2026-13453/privacy-act-of-1974-system-of-records"
+      },
+      "status": "Effective"
+    }
+  ]
+}

@@ -26,7 +26,7 @@ Summary statistics at the top show overall progress across all 25+ tracked CFO A
 
 - [React 19](https://react.dev/) with [Vite 8](https://vitejs.dev/)
 - No external UI libraries — all styling is inline
-- Data is maintained directly in the component (`src/dnp-sorn-tracker.jsx`)
+- No runtime backend: agency data is generated at build time into `src/data/filings.json`
 
 ## Getting Started
 
@@ -37,30 +37,74 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) to view the dashboard.
 
-## Updating the Data
+## How the Data Updates
 
-All agency data lives in the `AGENCIES` array at the top of `src/dnp-sorn-tracker.jsx`. Each entry has the following shape:
+The dashboard is generated, not hand-maintained. Three pieces:
 
-```js
-{
-  agency: "Agency Full Name",
-  abbr: "ABBR",
-  type: "CFO Act" | "Independent",
-  frDoc: "2026-00000",           // Federal Register document number
-  frCitation: "91 FR 12345",
-  pubDate: "2026-01-01",
-  effectiveDate: "2026-01-31",
-  sorns: ["SORN-1", "SORN-2"],
-  notes: "...",
-  frUrl: "https://...",
-  status: "Effective" | "Comment Period" | "Not Filed",
-  sornCount: 2,                  // number or "Multiple"
-}
+| File | Written by | Purpose |
+|------|-----------|---------|
+| `src/frQuery.js` | you | The Federal Register query — search terms, fields, date floor. Shared by the generator and the in-app live feed so they can't drift. |
+| `src/data/overrides.json` | you | Hand-curated agency context: `abbr`, `type`, `notes`, curated `sorns`, and `extraFilings` for notices that don't exist in the FR API (e.g. SEC's own Privacy Act releases). |
+| `src/data/filings.json` | the generator | **Never hand-edit.** Produced by `scripts/fetch-filings.mjs`. |
+
+Refresh locally:
+
+```bash
+npm run update-data
 ```
 
-Set `status` to `"Effective"` once a notice's effective date has passed, `"Comment Period"` while it is still in the public comment window, or leave as `"Not Filed"` until a notice is confirmed.
+`.github/workflows/update-filings.yml` runs the same command twice daily, commits
+`src/data/filings.json` if it changed, and then invokes the Pages deploy workflow
+directly — a commit made with `GITHUB_TOKEN` does not fire the `push` event, so the
+deploy has to be called rather than triggered.
+
+### Why the query uses several search terms
+
+Agencies do not spell the program name consistently. DOL's September 2026 notice
+([2026-17838](https://www.federalregister.gov/documents/2026/09/01/2026-17838/privacy-act-of-1974-system-of-records))
+writes "Do Not Pay **(DNP)** Working System", which does not match the literal phrase
+`"Do Not Pay Working System"`. `FR_TERMS` queries several phrasings and unions the
+results by document number. Adding a term is the right fix when a known filing is missing.
+
+### Status is derived, never stored
+
+Status is computed from Federal Register dates at generation time, against `asOf`:
+
+- **Comment Period** — at least one notice whose comment window is still open
+- **Effective** — notices located, no comment window open
+- **Not Filed** — no matching notice located
+
+Nothing in the repo hardcodes a status, so a comment window closing can't leave a
+stale badge behind.
+
+### Agency rollup
+
+A notice filed by a component agency is attributed to the nearest ancestor listed in
+`overrides.json`, otherwise to its top-level parent. This keeps Bureau of the Fiscal
+Service notices under Treasury while leaving FERC — whose FR parent is the Energy
+Department — as its own line.
+
+### Adding an agency
+
+Agencies file automatically once the Federal Register has a matching notice; nothing
+is needed to make them appear. Add an entry to `overrides.json` keyed by
+[FR agency slug](https://www.federalregister.gov/api/v1/agencies.json) to attach
+curated notes, or to pin an agency to the dashboard *before* it has filed so the
+compliance gap stays visible.
+
+### If the tracker stops updating
+
+1. Check the Actions tab. GitHub disables scheduled workflows after 60 days of repo
+   inactivity — re-enable it there. (The workflow's own commits normally keep the
+   schedule alive.)
+2. Open the **Live FR Feed** panel on the site. Notices badged `NEW` are in the
+   Federal Register but not in the committed dataset, which means the workflow has
+   stopped rather than the query being wrong.
+3. If a known filing appears in neither, the query missed it — add a phrasing to
+   `FR_TERMS` in `src/frQuery.js`.
 
 ## Data Sources
 
-- [Federal Register — Do Not Pay routine use notices](https://www.federalregister.gov/documents/search?conditions%5Bterm%5D=%22Do+Not+Pay+Working+System%22+%22routine+use%22&conditions%5Btype%5D%5B%5D=NOTICE)
+- [Federal Register API](https://www.federalregister.gov/developers/documentation/api/v1) — `documents.json` and `agencies.json`
+- [Federal Register — Do Not Pay notices](https://www.federalregister.gov/documents/search?conditions%5Bterm%5D=%22Do+Not+Pay%22&conditions%5Btype%5D%5B%5D=NOTICE)
 - Individual agency Privacy Act pages and regulations.gov dockets

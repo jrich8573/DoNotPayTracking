@@ -1,36 +1,49 @@
 import { useState, useEffect, useCallback } from "react";
+import { FR_API, FR_TERMS, frSearchParams } from "./frQuery";
 
-const FR_API = "https://www.federalregister.gov/api/v1/documents.json";
-const FIELDS = ["document_number", "title", "publication_date", "effective_on", "html_url", "agencies"];
-
+/**
+ * Live Federal Register feed, run client-side on every page load.
+ *
+ * Uses the same union of search terms as the build-time generator, so a notice
+ * that shows up here but is flagged NEW means the committed dataset is behind —
+ * not that the query missed it.
+ */
 export function useFRLiveSearch(knownFrDocs = []) {
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [lastChecked, setLastChecked] = useState(null);
 
-  const fetch_ = useCallback(async () => {
+  const knownKey = knownFrDocs.join(",");
+
+  const run = useCallback(async () => {
     setLoading(true);
     setError(null);
     try {
-      const params = new URLSearchParams({
-        "conditions[term]": '"Do Not Pay Working System" "routine use"',
-        "conditions[type][]": "NOTICE",
-        "per_page": "20",
-        "order": "newest",
-      });
-      FIELDS.forEach(f => params.append("fields[]", f));
+      const known = new Set(knownKey ? knownKey.split(",") : []);
 
-      const res = await fetch(`${FR_API}?${params}`);
-      if (!res.ok) throw new Error(`FR API responded with ${res.status}`);
-      const data = await res.json();
+      // One request per term, unioned by document number — a single phrase
+      // query silently drops notices that spell the program name differently.
+      const pages = await Promise.all(
+        FR_TERMS.map(async term => {
+          const res = await fetch(`${FR_API}?${frSearchParams(term, { perPage: 40 })}`);
+          if (!res.ok) throw new Error(`FR API responded with ${res.status}`);
+          return (await res.json()).results ?? [];
+        })
+      );
+
+      const merged = new Map();
+      for (const doc of pages.flat()) merged.set(doc.document_number, doc);
 
       setResults(
-        (data.results ?? []).map(doc => ({
-          ...doc,
-          isNew: !knownFrDocs.includes(doc.document_number),
-          agencyNames: doc.agencies?.map(a => a.name).join(", ") ?? "Unknown",
-        }))
+        [...merged.values()]
+          .sort((a, b) => (b.publication_date ?? "").localeCompare(a.publication_date ?? ""))
+          .slice(0, 25)
+          .map(doc => ({
+            ...doc,
+            isNew: !known.has(doc.document_number),
+            agencyNames: doc.agencies?.map(a => a.name).join(", ") ?? "Unknown",
+          }))
       );
       setLastChecked(new Date());
     } catch (e) {
@@ -38,11 +51,9 @@ export function useFRLiveSearch(knownFrDocs = []) {
     } finally {
       setLoading(false);
     }
-  }, [knownFrDocs.join(",")]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [knownKey]);
 
-  useEffect(() => {
-    fetch_();
-  }, [fetch_]);
+  useEffect(() => { run(); }, [run]);
 
-  return { results, loading, error, lastChecked, refetch: fetch_ };
+  return { results, loading, error, lastChecked, refetch: run };
 }
