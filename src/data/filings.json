@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T14:08:02.598Z",
-  "asOf": "2026-09-23",
+  "generatedAt": "2026-09-24T14:05:55.973Z",
+  "asOf": "2026-09-24",
   "source": {
     "api": "https://www.federalregister.gov/api/v1/documents.json",
     "terms": [
@@ -13,8 +13,8 @@
   },
   "totals": {
     "agencies": 41,
-    "filings": 102,
-    "uniqueNotices": 100
+    "filings": 103,
+    "uniqueNotices": 101
   },
   "agencies": [
     {
@@ -1739,6 +1739,17 @@
       "sorns": [],
       "filings": [
         {
+          "frDoc": "2026-19599",
+          "frCitation": "91 FR 60677",
+          "pubDate": "2026-09-24",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice; correction.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/09/24/2026-19599/privacy-act-of-1974-matching-program"
+        },
+        {
           "frDoc": "2026-18527",
           "frCitation": "91 FR 57950",
           "pubDate": "2026-09-11",
@@ -1772,17 +1783,17 @@
           "frUrl": "https://www.federalregister.gov/documents/2026/09/03/2026-17995/privacy-act-of-1974-system-of-records"
         }
       ],
-      "filingCount": 3,
+      "filingCount": 4,
       "latest": {
-        "frDoc": "2026-18527",
-        "frCitation": "91 FR 57950",
-        "pubDate": "2026-09-11",
-        "effectiveDate": "2029-09-10",
-        "commentsCloseOn": "2026-10-08",
+        "frDoc": "2026-19599",
+        "frCitation": "91 FR 60677",
+        "pubDate": "2026-09-24",
+        "effectiveDate": null,
+        "commentsCloseOn": null,
         "title": "Privacy Act of 1974; Matching Program",
-        "action": "Notice of a modified matching program.",
+        "action": "Notice; correction.",
         "kind": "Matching Program",
-        "frUrl": "https://www.federalregister.gov/documents/2026/09/11/2026-18527/privacy-act-of-1974-matching-program"
+        "frUrl": "https://www.federalregister.gov/documents/2026/09/24/2026-19599/privacy-act-of-1974-matching-program"
       },
       "status": "Comment Period"
     },
