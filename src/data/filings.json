@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T14:05:55.973Z",
-  "asOf": "2026-09-24",
+  "generatedAt": "2026-09-25T14:29:14.301Z",
+  "asOf": "2026-09-25",
   "source": {
     "api": "https://www.federalregister.gov/api/v1/documents.json",
     "terms": [
@@ -13,8 +13,8 @@
   },
   "totals": {
     "agencies": 41,
-    "filings": 103,
-    "uniqueNotices": 101
+    "filings": 104,
+    "uniqueNotices": 102
   },
   "agencies": [
     {
@@ -366,7 +366,7 @@
         "kind": "SORN Modification",
         "frUrl": "https://www.federalregister.gov/documents/2026/08/25/2026-17278/privacy-act-of-1974-system-of-records"
       },
-      "status": "Comment Period"
+      "status": "Effective"
     },
     {
       "slug": "education-department",
@@ -414,7 +414,7 @@
         "kind": "Matching Program",
         "frUrl": "https://www.federalregister.gov/documents/2026/08/25/2026-17297/privacy-act-of-1974-matching-program"
       },
-      "status": "Comment Period"
+      "status": "Effective"
     },
     {
       "slug": "energy-department",
@@ -892,6 +892,17 @@
       "sorns": [],
       "filings": [
         {
+          "frDoc": "2026-19643",
+          "frCitation": "91 FR 60958",
+          "pubDate": "2026-09-25",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-10-26",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/09/25/2026-19643/privacy-act-of-1974-matching-program"
+        },
+        {
           "frDoc": "2026-17907",
           "frCitation": "91 FR 56457",
           "pubDate": "2026-09-02",
@@ -936,17 +947,17 @@
           "frUrl": "https://www.federalregister.gov/documents/2025/10/22/2025-19630/privacy-act-of-1974-matching-program"
         }
       ],
-      "filingCount": 4,
+      "filingCount": 5,
       "latest": {
-        "frDoc": "2026-17907",
-        "frCitation": "91 FR 56457",
-        "pubDate": "2026-09-02",
-        "effectiveDate": "2029-09-10",
-        "commentsCloseOn": "2026-10-02",
+        "frDoc": "2026-19643",
+        "frCitation": "91 FR 60958",
+        "pubDate": "2026-09-25",
+        "effectiveDate": null,
+        "commentsCloseOn": "2026-10-26",
         "title": "Privacy Act of 1974; Matching Program",
         "action": "Notice of a new matching program.",
         "kind": "Matching Program",
-        "frUrl": "https://www.federalregister.gov/documents/2026/09/02/2026-17907/privacy-act-of-1974-matching-program"
+        "frUrl": "https://www.federalregister.gov/documents/2026/09/25/2026-19643/privacy-act-of-1974-matching-program"
       },
       "status": "Comment Period"
     },
