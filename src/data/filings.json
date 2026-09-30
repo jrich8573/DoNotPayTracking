@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T00:01:15.114Z",
+  "generatedAt": "2026-09-30T15:44:12.399Z",
   "asOf": "2026-09-30",
   "source": {
     "api": "https://www.federalregister.gov/api/v1/documents.json",
@@ -13,8 +13,8 @@
   },
   "totals": {
     "agencies": 41,
-    "filings": 104,
-    "uniqueNotices": 102
+    "filings": 105,
+    "uniqueNotices": 103
   },
   "agencies": [
     {
@@ -1014,6 +1014,17 @@
       ],
       "filings": [
         {
+          "frDoc": "2026-20042",
+          "frCitation": "91 FR 61855",
+          "pubDate": "2026-09-30",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-10-30",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-20042/privacy-act-of-1974-system-of-records"
+        },
+        {
           "frDoc": "2026-13660",
           "frCitation": "91 FR 41649",
           "pubDate": "2026-07-07",
@@ -1124,19 +1135,19 @@
           "frUrl": "https://www.federalregister.gov/documents/2025/04/01/2025-05555/privacy-act-of-1974-matching-program"
         }
       ],
-      "filingCount": 10,
+      "filingCount": 11,
       "latest": {
-        "frDoc": "2026-13660",
-        "frCitation": "91 FR 41649",
-        "pubDate": "2026-07-07",
+        "frDoc": "2026-20042",
+        "frCitation": "91 FR 61855",
+        "pubDate": "2026-09-30",
         "effectiveDate": null,
-        "commentsCloseOn": "2026-08-06",
+        "commentsCloseOn": "2026-10-30",
         "title": "Privacy Act of 1974; System of Records",
         "action": "Notice of a modified system of records.",
         "kind": "SORN Modification",
-        "frUrl": "https://www.federalregister.gov/documents/2026/07/07/2026-13660/privacy-act-of-1974-system-of-records"
+        "frUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-20042/privacy-act-of-1974-system-of-records"
       },
-      "status": "Effective"
+      "status": "Comment Period"
     },
     {
       "slug": "interior-department",
