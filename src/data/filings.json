@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T16:07:56.973Z",
-  "asOf": "2026-10-01",
+  "generatedAt": "2026-10-02T00:24:51.176Z",
+  "asOf": "2026-10-02",
   "source": {
     "api": "https://www.federalregister.gov/api/v1/documents.json",
     "terms": [
@@ -1285,7 +1285,7 @@
         "kind": "Matching Program",
         "frUrl": "https://www.federalregister.gov/documents/2026/09/01/2026-17838/privacy-act-of-1974-system-of-records"
       },
-      "status": "Comment Period"
+      "status": "Effective"
     },
     {
       "slug": "management-and-budget-office",
