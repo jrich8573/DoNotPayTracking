@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T00:24:51.176Z",
+  "generatedAt": "2026-10-02T15:31:31.002Z",
   "asOf": "2026-10-02",
   "source": {
     "api": "https://www.federalregister.gov/api/v1/documents.json",
@@ -13,8 +13,8 @@
   },
   "totals": {
     "agencies": 41,
-    "filings": 105,
-    "uniqueNotices": 103
+    "filings": 106,
+    "uniqueNotices": 104
   },
   "agencies": [
     {
@@ -1159,6 +1159,17 @@
       "sorns": [],
       "filings": [
         {
+          "frDoc": "2026-20204",
+          "frCitation": "91 FR 62742",
+          "pubDate": "2026-10-02",
+          "effectiveDate": "2026-11-02",
+          "commentsCloseOn": "2026-11-02",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/10/02/2026-20204/privacy-act-of-1974-matching-program"
+        },
+        {
           "frDoc": "2026-04216",
           "frCitation": "91 FR 10622",
           "pubDate": "2026-03-04",
@@ -1170,19 +1181,19 @@
           "frUrl": "https://www.federalregister.gov/documents/2026/03/04/2026-04216/privacy-act-of-1974-system-of-records"
         }
       ],
-      "filingCount": 1,
+      "filingCount": 2,
       "latest": {
-        "frDoc": "2026-04216",
-        "frCitation": "91 FR 10622",
-        "pubDate": "2026-03-04",
-        "effectiveDate": "2026-04-06",
-        "commentsCloseOn": "2026-04-06",
-        "title": "Privacy Act of 1974; System of Records",
-        "action": "Notice of modified systems of records.",
-        "kind": "SORN Modification",
-        "frUrl": "https://www.federalregister.gov/documents/2026/03/04/2026-04216/privacy-act-of-1974-system-of-records"
+        "frDoc": "2026-20204",
+        "frCitation": "91 FR 62742",
+        "pubDate": "2026-10-02",
+        "effectiveDate": "2026-11-02",
+        "commentsCloseOn": "2026-11-02",
+        "title": "Privacy Act of 1974; Matching Program",
+        "action": "Notice of a new matching program.",
+        "kind": "Matching Program",
+        "frUrl": "https://www.federalregister.gov/documents/2026/10/02/2026-20204/privacy-act-of-1974-matching-program"
       },
-      "status": "Effective"
+      "status": "Comment Period"
     },
     {
       "slug": "justice-department",
