@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T00:18:01.272Z",
+  "generatedAt": "2026-10-07T16:10:46.714Z",
   "asOf": "2026-10-07",
   "source": {
     "api": "https://www.federalregister.gov/api/v1/documents.json",
@@ -13,8 +13,8 @@
   },
   "totals": {
     "agencies": 41,
-    "filings": 106,
-    "uniqueNotices": 104
+    "filings": 107,
+    "uniqueNotices": 105
   },
   "agencies": [
     {
@@ -1205,6 +1205,17 @@
       "sorns": [],
       "filings": [
         {
+          "frDoc": "2026-20531",
+          "frCitation": "91 FR 64179",
+          "pubDate": "2026-10-07",
+          "effectiveDate": null,
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/10/07/2026-20531/privacy-act-of-1974-system-of-records"
+        },
+        {
           "frDoc": "2026-17963",
           "frCitation": "91 FR 56474",
           "pubDate": "2026-09-02",
@@ -1227,17 +1238,17 @@
           "frUrl": "https://www.federalregister.gov/documents/2026/05/13/2026-09518/privacy-act-of-1974-system-of-records"
         }
       ],
-      "filingCount": 2,
+      "filingCount": 3,
       "latest": {
-        "frDoc": "2026-17963",
-        "frCitation": "91 FR 56474",
-        "pubDate": "2026-09-02",
-        "effectiveDate": "2029-09-10",
+        "frDoc": "2026-20531",
+        "frCitation": "91 FR 64179",
+        "pubDate": "2026-10-07",
+        "effectiveDate": null,
         "commentsCloseOn": null,
-        "title": "Privacy Act of 1974; Matching Program",
-        "action": "Notice of a new matching program.",
-        "kind": "Matching Program",
-        "frUrl": "https://www.federalregister.gov/documents/2026/09/02/2026-17963/privacy-act-of-1974-matching-program"
+        "title": "Privacy Act of 1974; System of Records",
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/10/07/2026-20531/privacy-act-of-1974-system-of-records"
       },
       "status": "Effective"
     },
