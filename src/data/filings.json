@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T00:03:51.411Z",
+  "generatedAt": "2026-10-14T14:24:25.559Z",
   "asOf": "2026-10-14",
   "source": {
     "api": "https://www.federalregister.gov/api/v1/documents.json",
@@ -13,8 +13,8 @@
   },
   "totals": {
     "agencies": 41,
-    "filings": 108,
-    "uniqueNotices": 106
+    "filings": 117,
+    "uniqueNotices": 115
   },
   "agencies": [
     {
@@ -332,6 +332,105 @@
       "sorns": [],
       "filings": [
         {
+          "frDoc": "2026-20952",
+          "frCitation": "91 FR 65185",
+          "pubDate": "2026-10-14",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-11-13",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/10/14/2026-20952/privacy-act-of-1974-matching-program"
+        },
+        {
+          "frDoc": "2026-20951",
+          "frCitation": "91 FR 65198",
+          "pubDate": "2026-10-14",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-12-14",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/10/14/2026-20951/privacy-act-of-1974-matching-program"
+        },
+        {
+          "frDoc": "2026-20950",
+          "frCitation": "91 FR 65187",
+          "pubDate": "2026-10-14",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-11-13",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/10/14/2026-20950/privacy-act-of-1974-matching-program"
+        },
+        {
+          "frDoc": "2026-20949",
+          "frCitation": "91 FR 65189",
+          "pubDate": "2026-10-14",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-11-13",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/10/14/2026-20949/privacy-act-of-1974-matching-program"
+        },
+        {
+          "frDoc": "2026-20948",
+          "frCitation": "91 FR 65184",
+          "pubDate": "2026-10-14",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-11-13",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a New Matching Program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/10/14/2026-20948/privacy-act-of-1974-matching-program"
+        },
+        {
+          "frDoc": "2026-20947",
+          "frCitation": "91 FR 65186",
+          "pubDate": "2026-10-14",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-11-13",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a New Matching Program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/10/14/2026-20947/privacy-act-of-1974-matching-program"
+        },
+        {
+          "frDoc": "2026-20946",
+          "frCitation": "91 FR 65198",
+          "pubDate": "2026-10-14",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-11-13",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/10/14/2026-20946/privacy-act-of-1974-matching-program"
+        },
+        {
+          "frDoc": "2026-20945",
+          "frCitation": "91 FR 65188",
+          "pubDate": "2026-10-14",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-11-13",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/10/14/2026-20945/privacy-act-of-1974-matching-program"
+        },
+        {
+          "frDoc": "2026-20944",
+          "frCitation": "91 FR 65197",
+          "pubDate": "2026-10-14",
+          "effectiveDate": null,
+          "commentsCloseOn": "2026-11-13",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/10/14/2026-20944/privacy-act-of-1974-matching-program"
+        },
+        {
           "frDoc": "2026-17278",
           "frCitation": "91 FR 54850",
           "pubDate": "2026-08-25",
@@ -354,19 +453,19 @@
           "frUrl": "https://www.federalregister.gov/documents/2025/11/26/2025-21170/privacy-act-of-1974-system-of-records"
         }
       ],
-      "filingCount": 2,
+      "filingCount": 11,
       "latest": {
-        "frDoc": "2026-17278",
-        "frCitation": "91 FR 54850",
-        "pubDate": "2026-08-25",
+        "frDoc": "2026-20952",
+        "frCitation": "91 FR 65185",
+        "pubDate": "2026-10-14",
         "effectiveDate": null,
-        "commentsCloseOn": "2026-09-24",
-        "title": "Privacy Act of 1974; System of Records",
-        "action": "Notice of a modified system of records.",
-        "kind": "SORN Modification",
-        "frUrl": "https://www.federalregister.gov/documents/2026/08/25/2026-17278/privacy-act-of-1974-system-of-records"
+        "commentsCloseOn": "2026-11-13",
+        "title": "Privacy Act of 1974; Matching Program",
+        "action": "Notice of a new matching program.",
+        "kind": "Matching Program",
+        "frUrl": "https://www.federalregister.gov/documents/2026/10/14/2026-20952/privacy-act-of-1974-matching-program"
       },
-      "status": "Effective"
+      "status": "Comment Period"
     },
     {
       "slug": "education-department",
