@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-15T14:02:04.467Z",
-  "asOf": "2026-10-15",
+  "generatedAt": "2026-10-16T13:48:26.817Z",
+  "asOf": "2026-10-16",
   "source": {
     "api": "https://www.federalregister.gov/api/v1/documents.json",
     "terms": [
@@ -2065,7 +2065,7 @@
         "kind": "Matching Program",
         "frUrl": "https://www.federalregister.gov/documents/2026/09/15/2026-18801/privacy-act-of-1974-system-of-records"
       },
-      "status": "Comment Period"
+      "status": "Effective"
     },
     {
       "slug": "surface-transportation-board",
