@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-16T13:48:26.817Z",
-  "asOf": "2026-10-16",
+  "generatedAt": "2026-10-17T12:46:09.999Z",
+  "asOf": "2026-10-17",
   "source": {
     "api": "https://www.federalregister.gov/api/v1/documents.json",
     "terms": [
@@ -13,8 +13,8 @@
   },
   "totals": {
     "agencies": 41,
-    "filings": 117,
-    "uniqueNotices": 115
+    "filings": 121,
+    "uniqueNotices": 119
   },
   "agencies": [
     {
@@ -663,6 +663,50 @@
       "sorns": [],
       "filings": [
         {
+          "frDoc": "2026-21381",
+          "frCitation": "91 FR 66145",
+          "pubDate": "2026-10-19",
+          "effectiveDate": "2026-10-19",
+          "commentsCloseOn": "2026-11-18",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/10/19/2026-21381/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-21315",
+          "frCitation": "91 FR 66132",
+          "pubDate": "2026-10-19",
+          "effectiveDate": "2026-10-19",
+          "commentsCloseOn": "2026-11-18",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/10/19/2026-21315/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-21314",
+          "frCitation": "91 FR 66127",
+          "pubDate": "2026-10-19",
+          "effectiveDate": "2026-10-19",
+          "commentsCloseOn": "2026-11-18",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/10/19/2026-21314/privacy-act-of-1974-system-of-records"
+        },
+        {
+          "frDoc": "2026-21301",
+          "frCitation": "91 FR 66137",
+          "pubDate": "2026-10-19",
+          "effectiveDate": "2026-10-19",
+          "commentsCloseOn": "2026-11-18",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/10/19/2026-21301/privacy-act-of-1974-system-of-records"
+        },
+        {
           "frDoc": "2026-03742",
           "frCitation": "91 FR 9263",
           "pubDate": "2026-02-25",
@@ -729,19 +773,19 @@
           "frUrl": "https://www.federalregister.gov/documents/2026/02/25/2026-03736/privacy-act-of-1974-system-of-records"
         }
       ],
-      "filingCount": 6,
+      "filingCount": 10,
       "latest": {
-        "frDoc": "2026-03742",
-        "frCitation": "91 FR 9263",
-        "pubDate": "2026-02-25",
-        "effectiveDate": "2026-02-25",
-        "commentsCloseOn": "2026-03-27",
+        "frDoc": "2026-21381",
+        "frCitation": "91 FR 66145",
+        "pubDate": "2026-10-19",
+        "effectiveDate": "2026-10-19",
+        "commentsCloseOn": "2026-11-18",
         "title": "Privacy Act of 1974; System of Records",
-        "action": "Notice; modified system of records.",
+        "action": "Notice of a modified system of records.",
         "kind": "SORN Modification",
-        "frUrl": "https://www.federalregister.gov/documents/2026/02/25/2026-03742/privacy-act-of-1974-system-of-records"
+        "frUrl": "https://www.federalregister.gov/documents/2026/10/19/2026-21381/privacy-act-of-1974-system-of-records"
       },
-      "status": "Effective"
+      "status": "Comment Period"
     },
     {
       "slug": "federal-deposit-insurance-corporation",
