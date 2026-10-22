@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T14:23:34.976Z",
-  "asOf": "2026-10-21",
+  "generatedAt": "2026-10-22T14:24:47.635Z",
+  "asOf": "2026-10-22",
   "source": {
     "api": "https://www.federalregister.gov/api/v1/documents.json",
     "terms": [
@@ -13,8 +13,8 @@
   },
   "totals": {
     "agencies": 41,
-    "filings": 121,
-    "uniqueNotices": 119
+    "filings": 122,
+    "uniqueNotices": 120
   },
   "agencies": [
     {
@@ -663,6 +663,17 @@
       "sorns": [],
       "filings": [
         {
+          "frDoc": "2026-21619",
+          "frCitation": "91 FR 66700",
+          "pubDate": "2026-10-22",
+          "effectiveDate": "2026-10-22",
+          "commentsCloseOn": "2026-11-23",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a new system of records.",
+          "kind": "New SORN",
+          "frUrl": "https://www.federalregister.gov/documents/2026/10/22/2026-21619/privacy-act-of-1974-system-of-records"
+        },
+        {
           "frDoc": "2026-21381",
           "frCitation": "91 FR 66145",
           "pubDate": "2026-10-19",
@@ -773,17 +784,17 @@
           "frUrl": "https://www.federalregister.gov/documents/2026/02/25/2026-03736/privacy-act-of-1974-system-of-records"
         }
       ],
-      "filingCount": 10,
+      "filingCount": 11,
       "latest": {
-        "frDoc": "2026-21381",
-        "frCitation": "91 FR 66145",
-        "pubDate": "2026-10-19",
-        "effectiveDate": "2026-10-19",
-        "commentsCloseOn": "2026-11-18",
+        "frDoc": "2026-21619",
+        "frCitation": "91 FR 66700",
+        "pubDate": "2026-10-22",
+        "effectiveDate": "2026-10-22",
+        "commentsCloseOn": "2026-11-23",
         "title": "Privacy Act of 1974; System of Records",
-        "action": "Notice of a modified system of records.",
-        "kind": "SORN Modification",
-        "frUrl": "https://www.federalregister.gov/documents/2026/10/19/2026-21381/privacy-act-of-1974-system-of-records"
+        "action": "Notice of a new system of records.",
+        "kind": "New SORN",
+        "frUrl": "https://www.federalregister.gov/documents/2026/10/22/2026-21619/privacy-act-of-1974-system-of-records"
       },
       "status": "Comment Period"
     },
