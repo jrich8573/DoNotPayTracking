@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T00:11:24.385Z",
+  "generatedAt": "2026-10-28T15:48:04.083Z",
   "asOf": "2026-10-28",
   "source": {
     "api": "https://www.federalregister.gov/api/v1/documents.json",
@@ -13,8 +13,8 @@
   },
   "totals": {
     "agencies": 41,
-    "filings": 123,
-    "uniqueNotices": 121
+    "filings": 124,
+    "uniqueNotices": 122
   },
   "agencies": [
     {
@@ -154,6 +154,17 @@
       "sorns": [],
       "filings": [
         {
+          "frDoc": "2026-21916",
+          "frCitation": "91 FR 67814",
+          "pubDate": "2026-10-28",
+          "effectiveDate": "2029-09-10",
+          "commentsCloseOn": "2026-11-27",
+          "title": "Privacy Act of 1974; Matching Program",
+          "action": "Notice of a new matching program.",
+          "kind": "Matching Program",
+          "frUrl": "https://www.federalregister.gov/documents/2026/10/28/2026-21916/privacy-act-of-1974-matching-program"
+        },
+        {
           "frDoc": "2026-00996",
           "frCitation": "91 FR 2332",
           "pubDate": "2026-01-20",
@@ -165,19 +176,19 @@
           "frUrl": "https://www.federalregister.gov/documents/2026/01/20/2026-00996/privacy-act-of-1974-system-of-records"
         }
       ],
-      "filingCount": 1,
+      "filingCount": 2,
       "latest": {
-        "frDoc": "2026-00996",
-        "frCitation": "91 FR 2332",
-        "pubDate": "2026-01-20",
-        "effectiveDate": "2026-02-24",
-        "commentsCloseOn": "2026-02-19",
-        "title": "Privacy Act of 1974: System of Records",
-        "action": "Notice of modified systems of records.",
-        "kind": "SORN Modification",
-        "frUrl": "https://www.federalregister.gov/documents/2026/01/20/2026-00996/privacy-act-of-1974-system-of-records"
+        "frDoc": "2026-21916",
+        "frCitation": "91 FR 67814",
+        "pubDate": "2026-10-28",
+        "effectiveDate": "2029-09-10",
+        "commentsCloseOn": "2026-11-27",
+        "title": "Privacy Act of 1974; Matching Program",
+        "action": "Notice of a new matching program.",
+        "kind": "Matching Program",
+        "frUrl": "https://www.federalregister.gov/documents/2026/10/28/2026-21916/privacy-act-of-1974-matching-program"
       },
-      "status": "Effective"
+      "status": "Comment Period"
     },
     {
       "slug": "commodity-futures-trading-commission",
