@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-30T15:41:39.721Z",
-  "asOf": "2026-10-30",
+  "generatedAt": "2026-10-31T00:17:31.497Z",
+  "asOf": "2026-10-31",
   "source": {
     "api": "https://www.federalregister.gov/api/v1/documents.json",
     "terms": [
@@ -1323,7 +1323,7 @@
         "kind": "SORN Modification",
         "frUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-20042/privacy-act-of-1974-system-of-records"
       },
-      "status": "Comment Period"
+      "status": "Effective"
     },
     {
       "slug": "interior-department",
