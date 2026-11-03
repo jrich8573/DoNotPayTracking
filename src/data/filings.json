@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T02:43:52.979Z",
+  "generatedAt": "2026-11-03T16:52:55.514Z",
   "asOf": "2026-11-03",
   "source": {
     "api": "https://www.federalregister.gov/api/v1/documents.json",
@@ -13,8 +13,8 @@
   },
   "totals": {
     "agencies": 41,
-    "filings": 126,
-    "uniqueNotices": 124
+    "filings": 127,
+    "uniqueNotices": 125
   },
   "agencies": [
     {
@@ -2029,6 +2029,17 @@
       ],
       "filings": [
         {
+          "frDoc": "2026-22356",
+          "frCitation": "91 FR 69297",
+          "pubDate": "2026-11-03",
+          "effectiveDate": "2026-12-03",
+          "commentsCloseOn": null,
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a modified system of records.",
+          "kind": "SORN Modification",
+          "frUrl": "https://www.federalregister.gov/documents/2026/11/03/2026-22356/privacy-act-of-1974-system-of-records"
+        },
+        {
           "frDoc": "2026-22173",
           "frCitation": "91 FR 68581",
           "pubDate": "2026-10-30",
@@ -2084,17 +2095,17 @@
           "frUrl": "https://www.federalregister.gov/documents/2025/11/12/2025-19849/privacy-act-of-1974-system-of-records"
         }
       ],
-      "filingCount": 5,
+      "filingCount": 6,
       "latest": {
-        "frDoc": "2026-22173",
-        "frCitation": "91 FR 68581",
-        "pubDate": "2026-10-30",
-        "effectiveDate": "2026-11-30",
+        "frDoc": "2026-22356",
+        "frCitation": "91 FR 69297",
+        "pubDate": "2026-11-03",
+        "effectiveDate": "2026-12-03",
         "commentsCloseOn": null,
         "title": "Privacy Act of 1974; System of Records",
-        "action": "Notice of a new system of records.",
-        "kind": "New SORN",
-        "frUrl": "https://www.federalregister.gov/documents/2026/10/30/2026-22173/privacy-act-of-1974-system-of-records"
+        "action": "Notice of a modified system of records.",
+        "kind": "SORN Modification",
+        "frUrl": "https://www.federalregister.gov/documents/2026/11/03/2026-22356/privacy-act-of-1974-system-of-records"
       },
       "status": "Effective"
     },
