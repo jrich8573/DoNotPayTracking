@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T00:06:57.743Z",
-  "asOf": "2026-11-02",
+  "generatedAt": "2026-11-03T02:43:52.979Z",
+  "asOf": "2026-11-03",
   "source": {
     "api": "https://www.federalregister.gov/api/v1/documents.json",
     "terms": [
@@ -1369,7 +1369,7 @@
         "kind": "Matching Program",
         "frUrl": "https://www.federalregister.gov/documents/2026/10/02/2026-20204/privacy-act-of-1974-matching-program"
       },
-      "status": "Comment Period"
+      "status": "Effective"
     },
     {
       "slug": "justice-department",
