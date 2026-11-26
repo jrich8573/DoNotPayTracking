@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T03:19:31.946Z",
+  "generatedAt": "2026-11-26T18:52:55.449Z",
   "asOf": "2026-11-26",
   "source": {
     "api": "https://www.federalregister.gov/api/v1/documents.json",
@@ -13,8 +13,8 @@
   },
   "totals": {
     "agencies": 41,
-    "filings": 127,
-    "uniqueNotices": 125
+    "filings": 128,
+    "uniqueNotices": 126
   },
   "agencies": [
     {
@@ -674,6 +674,17 @@
       "sorns": [],
       "filings": [
         {
+          "frDoc": "2026-24041",
+          "frCitation": "91 FR 76767",
+          "pubDate": "2026-11-27",
+          "effectiveDate": "2026-11-27",
+          "commentsCloseOn": "2026-12-28",
+          "title": "Privacy Act of 1974; System of Records",
+          "action": "Notice of a new system of records.",
+          "kind": "New SORN",
+          "frUrl": "https://www.federalregister.gov/documents/2026/11/27/2026-24041/privacy-act-of-1974-system-of-records"
+        },
+        {
           "frDoc": "2026-21619",
           "frCitation": "91 FR 66700",
           "pubDate": "2026-10-22",
@@ -795,19 +806,19 @@
           "frUrl": "https://www.federalregister.gov/documents/2026/02/25/2026-03736/privacy-act-of-1974-system-of-records"
         }
       ],
-      "filingCount": 11,
+      "filingCount": 12,
       "latest": {
-        "frDoc": "2026-21619",
-        "frCitation": "91 FR 66700",
-        "pubDate": "2026-10-22",
-        "effectiveDate": "2026-10-22",
-        "commentsCloseOn": "2026-11-23",
+        "frDoc": "2026-24041",
+        "frCitation": "91 FR 76767",
+        "pubDate": "2026-11-27",
+        "effectiveDate": "2026-11-27",
+        "commentsCloseOn": "2026-12-28",
         "title": "Privacy Act of 1974; System of Records",
         "action": "Notice of a new system of records.",
         "kind": "New SORN",
-        "frUrl": "https://www.federalregister.gov/documents/2026/10/22/2026-21619/privacy-act-of-1974-system-of-records"
+        "frUrl": "https://www.federalregister.gov/documents/2026/11/27/2026-24041/privacy-act-of-1974-system-of-records"
       },
-      "status": "Effective"
+      "status": "Comment Period"
     },
     {
       "slug": "federal-deposit-insurance-corporation",
